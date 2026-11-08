@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" fetchpriority="high" as="image" href="/wiz6/assets/hero-m.webp">
+<title>SFC版【ウィザードリィ6 禁断の魔筆】をクリッカブルマップで攻略｜Wizardry6: Bane of the Cosmic Forge</title>
+<meta name="description" content="SFC版【ウィザードリィ6 禁断の魔筆】を、クリックで詳細がポップアップされるマップを自作して攻略！ああ…こんなマップが欲しかった！※主に俺が">
+<link rel="canonical" href="https://games.beishiryoku.org/wiz6/">
+<link rel="stylesheet" href="/wiz6/assets/css/common.css">
+<style>
+figcaption a {padding:0 2em 1em;}
+</style>
+<meta property="og:site_name" content="SFC版【ウィザードリィ6 禁断の魔筆】をクリッカブルマップで攻略｜Wizardry6: Bane of the Cosmic Forge">
+<meta property="og:title" content="SFC版【ウィザードリィ6 禁断の魔筆】をクリッカブルマップで攻略｜Wizardry6: Bane of the Cosmic Forge">
+<meta property="og:description" content="SFC版【ウィザードリィ6 禁断の魔筆】を、クリックで詳細がポップアップされるマップを自作して攻略！ああ…こんなマップが欲しかった！※主に俺が">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://games.beishiryoku.org/wiz6/">
+<meta property="og:image" content="https://games.beishiryoku.org/wiz6/assets/hero-og.webp">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.png" type="image/png" sizes="256x256">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#000">
+<meta name="robots" content="max-image-preview:large">
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Article",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "https://games.beishiryoku.org/wiz6/"
+},
+"headline": "SFC版【ウィザードリィ6 禁断の魔筆】をクリッカブルマップで攻略｜Wizardry6: Bane of the Cosmic Forge",
+"image": ["https://games.beishiryoku.org/wiz6/assets/hero-og.webp"],
+"datePublished": "2026-04-26T10:43:24+09:00",
+"dateModified": "2026-10-19T21:05:57+09:00",
+"author": {
+"@type": "Person",
+"name": "BucketMan",
+"url": "https://www.beishiryoku.org/",
+"description": "米子力研究所を運営し、地域の歴史や技術情報を発信する地方在住技術者。Wiz6をこよなく愛する。"
+},
+"publisher": {
+"@type": "Organization",
+"name": "米子力研究所",
+"url": "https://www.beishiryoku.org/",
+"logo": {
+"@type": "ImageObject",
+"url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV0ktJ1Mk5WVkCxCkG1ztHw8O2gFOhpdgjkSKT3dYB_kzHSoKiXoZbh52QBoxjb5Q0b2ZzQbA6_4gSsgqZatswAB3Ol8bqR9eY30j82gPDUdM_9VQiAHJi3tZmeI2UVTVggSxVYN4MVOR5Gnf6NhxSIuzQeqEHKGA4BX3rQh-Ni1SgL4KqRshLRS5mjxsD/s512-rw/logo.png"
+}
+},
+"description": "SFC版【ウィザードリィ6 禁断の魔筆】を、クリックで詳細がポップアップされるマップを自作して攻略！ああ…こんなマップが欲しかった！※主に俺が"
+}
+</script>
+</head>
+<body oncontextmenu='return false;'>
+<div id="background">
+<header>
+<h1 id="header-inner">
+Wizardry 6: Bane of the Cosmic Forge<br>
+スーパーファミコン版【ウィザードリィ6 禁断の魔筆】攻略
+</h1>
+</header>
+<div id='columns'>
+<main role='main'>
+<p class="center" style="padding:80px 0;">
+この世には知らねばならないことがある
+</p>
+<p class="m30">
+スーパーファミコン版<span class="brackets">ウィザードリィVI 禁断の魔筆</span>は1995年9月29日、アスキーから発売されました。<br>
+末弥純の美麗なイラストを採用し、音楽はおなじみの羽田健太郎。<br>
+ダンジョンマスター風味が大幅に増量され、あからさまに異端扱いの本作は、どういったわけか私の心を鷲づかみにし、今日に至るまで私はコズミック・フォージの探索へと何度もゝ駆り立てられてきました。<br>
+そしてその都度手本としてきたのが、ソフトバンク出版事業部（現:SBクリエイティブ）による『Theスーパーファミコン』版の攻略本です。<br>
+たいへんお世話になった本であり、感謝してもしきれないのですが、紙の本という物理的な制約による使いにくさというのはどうしても避けられないものでした。<br>
+それならば作ってしまえ。<br>
+ということで、html、css、JavaScriptの技術を持てる限り駆使し、クリックできるグリッドマップを搭載した攻略サイトが出来上がりました。<br>
+<br>
+あぁ…こんなマップが欲しかった！（<span class="mono">※主に俺が</span>）
+</p>
+<div class="m70 end">
+<p>最終更新：<time datetime="2026-10-15T22:23" itemprop="dateModified">2026年10月15日 22:23</time></p>
+</div>
+<figure class="m10">
+<a class="lightbox-common" href="/wiz6/assets/hero-l.webp">
+<img alt="アラム城へ足を踏み入れようとする冒険者達" class="pic-max asp16-9" fetchpriority="high" src="/wiz6/assets/hero-m.webp" />
+</a>
+</figure>
+<ul class="box-x lsn m70">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-1f/images/hero-l.webp">
+<img alt="かつて狂王が権勢を振るっていたという古城を探索｜アラム城1F" src="/wiz6/maps/castle-1f/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#1f">アラム城1F</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-2f/images/hero-l.webp">
+<img alt="かつては豪奢だったであろう王の寝室｜アラム城2F" src="/wiz6/maps/castle-2f/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#2f">アラム城2F</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-corner-towers/images/hero-l.webp">
+<img alt="怯えるル・モンテスに無くしものを渡してあげよう｜四隅の塔" src="/wiz6/maps/castle-corner-towers/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#towers">四隅の塔</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-b1/images/hero-l.webp">
+<img alt="古城の地下に屯する海賊たち｜アラム城B1" src="/wiz6/maps/castle-b1/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#b1">アラム城B1</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-belfry/images/hero-l.webp">
+<img alt="螺旋階段を上って最上階を目指そう｜アラム城の鐘楼" src="/wiz6/maps/castle-belfry/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#belfry">鐘楼</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/danger-area/images/hero-l.webp">
+<img alt="逃げ去るアマズール｜危険地帯" src="/wiz6/maps/danger-area/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#danger">危険地帯</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/giant-mountain/images/hero-l.webp">
+<img alt="険しい山道を辿って、強敵ロックガーディアンを目指そう｜ジャイアントマウンテン" src="/wiz6/maps/giant-mountain/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#mountain">ジャイアントマウンテン</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/mine/images/hero-l.webp">
+<img alt="ダイヤモンドの壁を砕いてゾーフィタスの長話を聴いてあげよう｜ドワーフの採掘場" src="/wiz6/maps/mine/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#mine">ドワーフの採掘場</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/pyramid/images/hero-l.webp">
+<img alt="アマズールの中心人物「クワリ・クボナ」に謁見｜ピラミッド" src="/wiz6/maps/pyramid/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#pyramid">ピラミッド</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-spire/images/hero-l.webp">
+<img alt="哀れな神父の亡霊がアラムの悲劇を語る｜尖塔" src="/wiz6/maps/castle-spire/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#spire">尖塔</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-b2/images/hero-l.webp">
+<img alt="ゾーフィタスの研究室｜アラム城B2" src="/wiz6/maps/castle-b2/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#b2">アラム城B2</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/river/images/hero-l.webp">
+<img alt="遺灰の船頭カロン｜死者の川" src="/wiz6/maps/river/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#river">死者の川</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/mound/images/hero-l.webp">
+<img alt="それぞれの死にざま、そしてそれぞれの墓碑銘｜亡者の墓" src="/wiz6/maps/mound/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#mound">亡者の墓</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/marsh/images/hero-l.webp">
+<img alt="不思議の国のキャタピラー｜沼地" src="/wiz6/maps/marsh/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#marsh">沼地</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/palace/images/hero-l.webp">
+<img alt="ロード・ハイヤト・ダイクタ 用心棒介錯人 第四の守護者｜死者の殿堂" src="/wiz6/maps/palace/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#palace">死者の殿堂</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/magic-forest/images/hero-l.webp">
+<img alt="デルファイの神託｜魔法の森" src="/wiz6/maps/magic-forest/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#forest">魔法の森</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/temple/images/hero-l.webp">
+<img alt="生贄よ、炎へ進むがよい｜雄羊の寺院" src="/wiz6/maps/temple/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#temple">雄羊の寺院</a></figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/cosmic-forge/images/hero-l.webp">
+<img alt="話の核心に入ろうではないか｜コズミック・フォージの社" src="/wiz6/maps/cosmic-forge/images/hero-s.webp" width="199" height="112" loading="lazy"/>
+</a>
+<figcaption class="center f08"><a href="#forge">コズミック・フォージの社</a></figcaption>
+</figure>
+</li>
+</ul>
+<p class="m130">
+ちなみに、週刊ファミ通のインタビューに対して<span class="brackets">ダンジョン飯</span>の九井諒子先生が、作品への<q>ウィザードリィ6</q>による影響について語っておられます。<br>
+<span class="block t20 m20">⇨ <a href="https://www.famitsu.com/article/202501/28449#header-5" target="_blank">『ダンジョン飯』九井諒子先生とゲームの話だけするインタビュー。「『ウィザードリィ6』をプレイして<span class="quot">こんな物語や絵を描いてみたい</span>と思いました」</a></span><br>
+いちファンとして感慨深いものがありましたのでリンクを張っておきます。<br>
+そしてなんと！<br>
+Wizardry45周年を記念するイベント群を告知するページにて<a href="https://45th.wizardry.info/wizardry6/" target="_blank" rel="nofollow">「SFC版ウィザードリィVI 禁断の魔筆」が2027年に移植発売されることが決定</a>したとのニュースが掲載されました。<br>
+マジか…ドリコムが版権を取得してくれて本当によかった…<br>
+ありがとう、ドリコム。<br>
+そして誤訳の件はなんとかしてくれ！<br>
+それでは以下、攻略ページの一覧へどうぞ！
+</p>
+<section class="m100">
+<div class="cases m30">
+<h2 id="1f">
+<a class="deco-none" href="/wiz6/maps/castle-1f/">
+<span class="title-l m5">アラム城1F</span>
+<span class="title-sub m15">チュートリアル的位置づけのフロアでウィザードリィVIのシステムに慣れるところからはじめよう！</span>
+</a>
+</h2>
+<p>
+開幕時の印象的なナレーションからわかる通り、<em class="quot r-l">街への帰還ができない</em> という、シリーズ始まって以来の一大事に陥っています。<br>
+勿論序盤で手に入る復活アイテムであるとかキャンプでの回復など、わりとサクサクプレイできる条件が整ってはいるのですが、それにしてもこのなんとも言えない心細さよ…<br>
+とりあえずここ城1Fでは、マップを埋めつつ戦闘、その他の操作にに慣れるのが目的です。<br>
+チュートリアル的なフロアですので落ち着いて探索を開始しましょう。
+</p>
+<p class="end"><a href="/wiz6/maps/castle-1f/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-1f/images/hero-l.webp">
+<img alt="かつて狂王が権勢を振るっていたという古城を探索｜アラム城1F" src="/wiz6/maps/castle-1f/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">ここはかつて狂王が権勢を振るっていたという古城だ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="アラム城への入城" src="/wiz6/maps/castle-1f/images/j22-1.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">退路ヨシ！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="回復の泉" src="/wiz6/maps/castle-1f/images/j11-2.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">様々な効果の泉があるぞ<br>活用して冒険を有利に進めよう</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="2f">
+<a class="deco-none" href="/wiz6/maps/castle-2f/">
+<span class="title-l m5">アラム城2F</span>
+<span class="title-sub m15">愛の冷めた王と妃、そして哀れな犠牲者たち</span>
+</a>
+</h2>
+<p>
+冒険にも慣れてきたところで、Wizardry6の世界観が徐々に明かされて行きます。<br>
+このフロアで分かることは、
+</p>
+<ul>
+<li>城で怪しげな儀式が行われていたこと</li>
+<li>城主が密通を行っていたらしいこと</li>
+<li>妃が密通への疑いを抱いていたこと</li>
+<li>そして妃がいろいろな意味で女王様であったこと（ｴﾍﾝｯ）</li>
+</ul>
+<p>
+概ねこんな感じです。<br>
+ここでは妃のSM趣味が面白げに語られていますが、そのお相手には諸説あります。<br>
+なにはともあれ、城が栄えていたのは随分昔であったのだなぁ…などと、寂れた調度品を調べたりしながら探索を進めようではありませんか。
+</p>
+<p class="end"><a href="/wiz6/maps/castle-2f/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-2f/images/hero-l.webp">
+<img src="/wiz6/maps/castle-2f/images/hero-s.webp" alt="かつては豪奢だったであろう王の寝室｜アラム城2F" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">豪奢な寝室だ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/castle-2f/images/j7-1.webp" alt="牡羊の祭壇" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">祭壇の下には強敵が待ち構えている</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/castle-2f/images/e11-6.webp" alt="宝箱" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ここではかつて奇妙な儀式が行われていたらしいゾ！ｴﾍﾝｯ</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="towers">
+<a class="deco-none" href="/wiz6/maps/castle-corner-towers/">
+<span class="title-l m5">四隅の塔</span>
+<span class="title-sub m15">ル・モンテスの無くしもの、スヌープチェリを渡してあげよう！</span>
+</a>
+</h2>
+<p>
+Wizardry6では転落死があるのだということをまず学ぶでしょう。<br>
+そしてちょっとしたトラブルに見舞われつつたどり着く最上階では、四方に広がる広大なフィールドを眺めることができます。<br>
+今後の冒険に期待が膨らむとともに、<q>ああ、これまでのWizardryシリーズとは別物なのだな</q>と我々に強く印象付けることを目的としたマップなのではないでしょうか。<br>
+さて、用があるのは右下の塔最上階に居るNPC<em class="brackets">ル・モンテス</em>です。<br>
+彼は無くしものを探していますので、代わりに探し出してゲーム進行上の重要アイテム <b>ぎんのかぎ</b> を入手しましょう。
+</p>
+<p class="end"><a href="/wiz6/maps/castle-corner-towers/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-corner-towers/images/hero-l.webp">
+<img alt="怯えるル・モンテスに無くしものを渡してあげよう｜四隅の塔" src="/wiz6/maps/castle-corner-towers/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">城の塔には奇妙な老人が住み着いている</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="東向きの遠望" src="/wiz6/maps/castle-corner-towers/images/br-f4-1.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">広大な冒険の舞台を眼下に見下ろしている</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="ル・モンテスとの会話" src="/wiz6/maps/castle-corner-towers/images/br-d4-1.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">話をよく聞いてみるととんでもない人物のようだ</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="b1">
+<a class="deco-none" href="/wiz6/maps/castle-b1/">
+<span class="title-l m5">アラム城B1</span>
+<span class="title-sub m15">古城の地下に屯する海賊たちを蹴散らして、マティー船長との飲みくらべに挑戦しよう！</span>
+</a>
+</h2>
+<p>
+アラム城 B1でやることはいろいろあります。
+</p>
+<ol>
+<li><em class="brackets">ル・モンテス</em>が探していたぬいぐるみ <b>スヌープチェリ</b> を見つける</li>
+<li><b>ししゃのにっき</b> を解読してロジャー船長の宝の隠し場所を知る</li>
+<li><em class="brackets">クィークエグ</em>から船長のねぐらへ入るための合言葉を聞く</li>
+<li>そして船長のねぐらで <b>てつのフック</b> を手に入れること</li>
+</ol>
+<p>
+だいたいこんなところでしょうか。<br>
+別のマップと連動していたり、フラグが他のフラグのフラグとなっていたりと、かなりｺﾞﾁｬｺﾞﾁｬしてきますので頑張ってください。<br>
+ｻｻｯと読み飛ばしてしまいそうになりますが、<b>ししゃのにっき</b> の内容は読みごたえがあります。<br>
+<span class="brackets">魔法の森</span>沿岸に漂着してから犠牲者を出しつつ<span class="brackets">ジャイアントマウンテン</span>へと迷走、ついには囚人として<span class="brackets">アラム城</span>で獄中死することとなった海賊船のクルーたちの恐怖が、ラヴクラフト的描写によりひしひしと伝わってきます。<br>
+そしてまさか彼らの絶望がベイン・キング攻略の一助となるとは！<br>
+このあと、海賊船らしきものを見つけたら注意しておきましょう。
+</p>
+<p class="end"><a href="/wiz6/maps/castle-b1/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-b1/images/hero-l.webp">
+<img alt="古城の地下に屯する海賊たち｜アラム城B1" src="/wiz6/maps/castle-b1/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">盗賊、おいはぎ、山賊、海賊、人殺し…<br>無法者たちが古城の地下にたむろしている</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="クィークエグとの会話" src="/wiz6/maps/castle-b1/images/l19-4.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">商人風の男が近づいてきた</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="マティー船長" src="/wiz6/maps/castle-b1/images/j15-16.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">マティー船長との飲み比べに挑戦しよう</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="死者の日記" src="/wiz6/maps/castle-b1/images/i10-20.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">日誌を抱えて亡骸が横たわっている</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="belfry">
+<a class="deco-none" href="/wiz6/maps/castle-belfry/">
+<span class="title-l m5">鐘楼</span>
+<span class="title-sub m15">アーアア～！吹抜けを飛びこえて重いロープを入手しよう</span>
+</a>
+</h2>
+<p>
+1本道の塔をてくてく上り、最上階でストーリー上必須のアイテム <b>おもいロープ</b> を入手するのが目的です。<br>
+ギミックもストーリーも他のマップに比べてうす味であることは否めませんが、一点だけ。<br>
+ロープにつかまって<q>アーアア～！</q>できるのはここだけです。<br>
+鐘を鳴らすたびに、そこそこ強い敵と確定で戦闘になりますので、経験値稼ぎができないでもありません。<br>
+※美味いとは言ってない
+</p>
+<p class="end"><a href="/wiz6/maps/castle-belfry/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-belfry/images/hero-l.webp">
+<img alt="螺旋階段を上って最上階を目指そう｜アラム城の鐘楼" src="/wiz6/maps/castle-belfry/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">螺旋階段を上っていくと重要アイテムが手に入るぞ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="鐘楼の注意書き" src="/wiz6/maps/castle-belfry/images/h18-1.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">開放が禁止されているのにはワケがある</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="大きな鐘がぶら下がっている" src="/wiz6/maps/castle-belfry/images/k3-1.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ア～アァ～！釣鐘に命を預けて一歩を踏み出せ</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="danger">
+<a class="deco-none" href="/wiz6/maps/danger-area/">
+<span class="title-l m5">危険地帯</span>
+<span class="title-sub m15">底なしの渓谷をとび越えて、怪しい人影を追跡しよう！</span>
+</a>
+</h2>
+<p>
+危険地帯では、はじめて <em class="quot">アイテムを組み合わせる</em> という操作が必要になってきます。<br>
+なんだか古き良きアドベンチャーゲームみたいですね。<br>
+他には <b>つるはし</b> を使って怪しい場所を掘ってみるというムーブが求められるようになります。<br>
+ここ以外のマップでもやらされますので、とりあえずつるはしの存在は覚えておきましょう。
+</p>
+<p class="end"><a href="/wiz6/maps/danger-area/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/danger-area/images/hero-l.webp">
+<img alt="逃げ去るアマズール｜危険地帯" src="/wiz6/maps/danger-area/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">なぜ追いかけるのだ<br>それはおまえが逃げるからだ！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="底なしの渓谷" src="/wiz6/maps/danger-area/images/k9-7.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">古びたロープに命を預けて新たなステージへ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="ヒドラ・プラントとの戦闘" src="/wiz6/maps/danger-area/images/d12-6.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">腹ペコモンスターが襲い掛かって来た！</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="mountain">
+<a class="deco-none" href="/wiz6/maps/giant-mountain/">
+<span class="title-l m5">ジャイアントマウンテン</span>
+<span class="title-sub m15">強敵！ロック・ガーディアンを倒してルビーのめだまを手に入れよう</span>
+</a>
+</h2>
+<p>
+ジャイアントマウンテンでの目標はシンプル。<br>
+山頂にいる強敵<em class="brackets">ロック・ガーディアン</em>を倒して重要アイテム <b>ルビーのめだま</b> を入手することです。<br>
+しかし、そこへ至るまでの道筋は一筋縄ではいきません。<br>
+歯車を修理したり、ゴムを集めたり、岩を拾ったりして渓谷を渡り、山肌を転げ落ちたりしながらはるか山の頂を目指します。<br>
+また、マップの構成自体が既に悪意の塊であり、転落による全滅を防ぐために、戦闘・イベントでのⒶボタン連打禁止、LRによる安易な横移動禁止など独自ルールでの自衛が、攻略以上に重要な位置づけとなってきます。<br>
+※転落しすぎて攻略どころではない<br>
+とにかく一歩一歩確実に移動しましょう。<br>
+その他、これまで友好的な取引相手であったクィークエグが（間接的に）登場します。<br>
+人間力の試される機会です。
+</p>
+<p class="end"><a href="/wiz6/maps/giant-mountain/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/giant-mountain/images/hero-l.webp">
+<img alt="険しい山道を辿って、強敵ロックガーディアンを目指そう｜ジャイアントマウンテン" src="/wiz6/maps/giant-mountain/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">ジャイアントマウンテンの道のりは険しい…</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="強敵！ロック・ガーディアン" src="/wiz6/maps/giant-mountain/images/r59-2.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">強敵！ロック・ガーディアンがあらわれた</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="グリンズ兄弟との戦闘" src="/wiz6/maps/giant-mountain/images/r53-2.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">弟は魔法を唱えてくるぞ！<br>優先的に無力化しよう</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="トール・トロール" src="/wiz6/maps/giant-mountain/images/z17-1.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">お金を払えば通してくれるらしいが…<br>どうする？</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="mine">
+<a class="deco-none" href="/wiz6/maps/mine/">
+<span class="title-l m5">ドワーフの採掘場</span>
+<span class="title-sub m15">ダイヤモンドの壁を砕いてゾーフィタスの長話を聴いてあげよう！</span>
+</a>
+</h2>
+<p>
+覚悟してください。<br>
+ここはピラミッドを上回るウィザードリィ6の最難関マップです。<br>
+漫然と歩いていると確実に迷ってしまいますよ。<br>
+しかも関連マップであるジャイアントマウンテンとの行ったり来たりが必須となりますので、混迷の度はさらに深くなります。<br>
+ここドワーフの採掘場でやることは2つ。<br>
+スミッティに<em class="quot">歯車の修理</em>をしてもらうことと、ゾーフィタス（半分）を解放して、重要アイテムを入手することです。<br>
+物語の進展としては、これまで”願いを叶えてくれる魔法のペン”という位置づけであった<em class="brackets">コズミック・フォージ</em>を使用するリスクについて、おそらく初めて言及されることになったはずです。<br>
+役柄上ウソをつく必要がないと思われる2人の犠牲者の体験を念頭に置いたうえで、今後意見の食い違う重要人物たちのウソを見抜いていくことが本作のメインテーマとなります。<br>
+じっくり話を聴いておきましょう。
+</p>
+<p class="end"><a href="/wiz6/maps/mine/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/mine/images/hero-l.webp">
+<img alt="ダイヤモンドの壁を砕いてゾーフィタスの長話を聴いてあげよう｜ドワーフの採掘場" src="/wiz6/maps/mine/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">ぼんやりと老人の姿が見える<br>何かを訴えているようだが…</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="ミスタファファスとの出会い" src="/wiz6/maps/mine/images/b1o7-3.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">気のいいヘビが話しかけてきたぞ<br>かつて魔法使いの弟子だったらしい</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="スミッティとの出会い" src="/wiz6/maps/mine/images/b2h7-4.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">スミッティは鍛冶と料理の二刀流<br>料理の腕前のほどは？！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img alt="ゾーフィタスの独白" src="/wiz6/maps/mine/images/b4s13-47.webp" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">魔法使いを縛っていた呪いの正体とは…？</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="pyramid">
+<a class="deco-none" href="/wiz6/maps/pyramid/">
+<span class="title-l m5">ピラミッド</span>
+<span class="title-sub m15">強敵！マウムームーを倒してルビーのめだまを入手しよう</span>
+</a>
+</h2>
+<p>
+ドワーフの採掘場と並ぶwizardry6きっての難関マップです。<br>
+<span class="mono">※迷路的な意味で</span><br>
+攻略の順序としては、
+</p>
+<ol>
+<li>ピラミッド2F～3FをうろうろしてB1への入口を探す</li>
+<li>ピラミッドB1の罠をかいくぐってマウムームー象を入手する</li>
+<li>ピラミッド4Fでマウムームーを撃破！<span class="brackets">ルビーのめだま</span>を入手する</li>
+</ol>
+<p>
+以上です。<br>
+ピラミッドのマップ内で（砂袋以外は）謎やギミックが完結していますので、採掘場よりはマシかもしれません。<br>
+また、B1の探索は<q>レイダース/失われたアーク《聖櫃》</q>のパク…オマージュとなっています。<br>
+インベントリにムチが残っているならぜひとも装備して、インディ・ジョーンズにでもなったつもりでロマンプレイにいそしむもよし。
+</p>
+<p class="end"><a href="/wiz6/maps/pyramid/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/pyramid/images/hero-l.webp">
+<img src="/wiz6/maps/pyramid/images/hero-s.webp" alt="アマズールの中心人物「クワリ・クボナ」との謁見｜ピラミッド" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">クワリ・クボナとの謁見に攻略の糸口が</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/pyramid/images/l3-1.webp" alt="強敵！アメン・タット・バット" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">危険な相手だ！<br>初手を間違えると…？！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/pyramid/images/l62-76.webp" alt="マウムームーは、今夜生贄を求めておいでだ！" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">女王はまだあどけない少女だ<br>しかしその心の中は…</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/pyramid/images/l62-101.webp" alt="シーーーッ！取り引きしない？" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">やっと話の通じる相手が出てきたと思ったら…</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/pyramid/images/b62-8.webp" alt="マウムームーが出現" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">強敵！マウムームーを撃破せよ</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="b2">
+<a class="deco-none" href="/wiz6/maps/castle-b2/">
+<span class="title-l m5">アラム城B2</span>
+<span class="title-sub m15">ルビーの目玉を2つ揃えて、死者の領域へと足を踏み入れよう！</span>
+</a>
+</h2>
+<p>
+アラム城、ジャイアントマウンテン、ドワーフの採掘場、ピラミッドを行ったり来たりしながら、苦労して探索した成果がすべてここに収束します。<br>
+2つの<span class="brackets">ルビーのめだま</span>をドアにはめ込んで、死者の川へと足を踏み入れましょう。<br>
+次のマップからいよいよ後半戦です。<br>
+横にある2部屋のギミックが複雑で、また部屋に入るためのアイテム、入手できるアイテムも多様。<br>
+頭が混乱してきますが、大丈夫。<br>
+私自身困ったからこそ、わざわざこんなサイトを作ったのです。<br>
+じっくり読んでいただければ攻略できるように作っていますので、落ち着いて調べてみてください。
+</p>
+<p class="end"><a href="/wiz6/maps/castle-b2/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-b2/images/hero-l.webp">
+<img alt="ゾーフィタスの研究室｜アラム城B2" src="/wiz6/maps/castle-b2/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">ネコはいます。<br>よろしくおねがいします。</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/castle-b2/images/f2-2.webp" alt="テーブルの上にはポーションや薬品が乗っている" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">魔法の品々がテーブルに載っている<br>いいか？絶対にさわるなよ！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/castle-b2/images/m11-1.webp" alt="ジャイアント・サーペントとの戦闘" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">罠に落ちると巨大なヘビが襲い掛かってくる</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/castle-b2/images/q6-11.webp" alt="髑髏の意匠が施されたドア" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ドアの向こうは死の領域だ</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="spire">
+<a class="deco-none" href="/wiz6/maps/castle-spire/">
+<span class="title-l m5">尖塔</span>
+<span class="title-sub m15">哀れな神父の独白が冒険の道を照らす</span>
+</a>
+</h2>
+<p>
+二つの塔があって、右の塔にいる亡霊からアイテムをもらう。<br>
+たったこれだけです。<br>
+しかし…ああ…しかし、アラム城で昔何が起こったのかをある程度把握したうえで振り返ると、Wizardry6の鬱ゲー成分を濃縮した胸糞マップであったことに気づかされます。<br>
+不義の子が悪魔と呼ばれ、さらに魔法の実験台とされたアニーはゾンビ化。<br>
+発狂した末に斬首刑、その後同じく魔法の実験台となり魂が囚われの状態となってしまった牧師。<br>
+二人の哀れな犠牲者が左右の塔に幽閉されています。<br>
+ああ、せめて…せめて終わらせてあげましょう。<br>
+さよなら、アニー…光がみえるよ…
+</p>
+<p class="end"><a href="/wiz6/maps/castle-spire/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/castle-spire/images/hero-l.webp">
+<img alt="哀れな神父の亡霊がアラムの悲劇を語る｜尖塔" src="/wiz6/maps/castle-spire/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">神父の亡霊が語る過去の物語</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/castle-spire/images/l-d2-1.webp" alt="スペードの鍵で開くドア" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">この扉を封印したのは、人を人とも思わぬ狂気の魔法使いだった</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/castle-spire/images/l-c2-1.webp" alt="ゾンビとの戦闘" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ゾンビの正体は…？！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/castle-spire/images/r-c2-27.webp" alt="牧師の告解" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">彼らに安らぎがあらんことを</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="river">
+<a class="deco-none" href="/wiz6/maps/river/">
+<span class="title-l m5">死者の川</span>
+<span class="title-sub m15">遺灰を集めてカロンに渡してあげよう！</span>
+</a>
+</h2>
+<p>
+死者の川での目標は、渡し舟の船頭カロンに遺灰を渡して、次のマップ<span class="brackets">死者の殿堂</span>へ進むための重要アイテム <b>ししゃのかぎ</b> を入手することです。
+</p>
+<p>
+…というのは建前で、ルート分岐前の経験値稼ぎという重要（？）な役割を持ったマップでもあります。<br>
+<em class="brackets">サイレン</em>や<em class="brackets">ジャイアント・クラブ</em>といった水生生物がそれはもうよく釣れますので、一度のエンカウントで30匹近くまとめて出現することも稀ではありません。<br>
+そしてそれらに対して全体攻撃呪文がアホほど効くため、サクサクと乱獲が捗ってしまうのです。<br>
+そのうち水産庁から漁獲量の制限がかもしれませんのでお早めに！
+</p>
+<p class="end"><a href="/wiz6/maps/river/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/river/images/hero-l.webp">
+<img alt="遺灰の船頭カロン｜死者の川" src="/wiz6/maps/river/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">遺灰の船頭カロン、死者の川にふさわしい案内人だ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/river/images/e45-22.webp" alt="私は遺骨の灰を死者の島に運んでいる" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">遺灰を渡すことで攻略の糸口が見つかる</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/river/images/j34-2.webp" alt="何千もの子羊たちがいけにえにされた" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ミノデーモン<br>謎に満ちた背景を持つ強力な悪魔だ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/river/images/i14-8.webp" alt="我らはサイレン 海の姉妹" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">狂気に囚われた悲しき海の魔物</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/river/images/l49-1.webp" alt="納骨堂でスケルトン・ロードとの戦闘に突入" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">大量のスケルトン<br>ブリンクがやっかいだ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/river/images/f6-2.webp" alt="アイランド・ジャイアントとの戦闘に突入" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ジャイアントも大量に出現！<br>魔法で一掃できるが絵面が怖いぞ</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="mound">
+<a class="deco-none" href="/wiz6/maps/mound/">
+<span class="title-l m5">亡者の墓</span>
+<span class="title-sub m15">それぞれの死にざま、そしてそれぞれの墓碑銘</span>
+</a>
+</h2>
+<p>
+実をいうとここ<span class="brackets">亡者の墓</span>の探索は攻略を進めるうえで必須ではありません。<br>
+かろうじて<span class="brackets">死者の川</span>でサイレンの謎かけに答えるヒントが手に入るのですが、力押しで何とかなってしまうからです。<br>
+しかし悲劇を喜劇として語る、このマップこそがWizardry6の真骨頂であるともいえるかもしれません。<br>
+少しうがった見方として、これらのエピタフが開発者たちのジョーク混じりの <span class="quot">座右の銘</span>、つまりゲームクレジットだとしたら…<br>
+なんてことを考える余地があるのも、このゲームの奥深さではないでしょうか。
+</p>
+<p class="end"><a href="/wiz6/maps/mound/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/mound/images/hero-l.webp">
+<img alt="それぞれの死にざま、そしてそれぞれの墓碑銘｜亡者の墓" src="/wiz6/maps/mound/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">亡者の島のカタコンベ<br>不気味な場所だ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/mound/images/m9-1.webp" alt="何かと遭遇した！" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">墓所に入るためにはゾンビを撃破しなければならない</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/mound/images/l3-1.webp" alt="うるさがたのアイラおばさん" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">墓にはそれぞれユニークなエピタフが刻まれている</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/mound/images/l3-6.webp" alt="「アイラズ・ゴースト」との戦闘" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">中にはこの世に未練を残す亡骸も混じっているぞ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/mound/images/l3-21.webp" alt="サイレンの歌" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">重要アイテムが副葬された墓もある</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="marsh">
+<a class="deco-none" href="/wiz6/maps/marsh/">
+<span class="title-l m5">沼地</span>
+<span class="title-sub m15">不思議の国のキャタピラーに会いに行こう！</span>
+</a>
+</h2>
+<p>
+なんと…<br>
+亡者の墓に続いて2つ目の <span class="quot b-l">攻略しなくていい</span> マップです。<br>
+死者の川隣接マップはいったいどうなっているんだ！<br>
+しかもマップに来なくてよいどころか、キャタピラーに関連する水煙管のクエスト、つまり南国美人マイ・ライとのやり取りも一切合切攻略する必要がないのです。<br>
+これは私の推測ですが、デバッグやらクローズドテストなどで <b>あかいキノコ</b> の使い方がわからず詰んでしまうケースが多くて、急遽攻略チャートのバイパス <b>おひつじのたんとう</b> ルートが追加されたためなのではないでしょうか。<br>
+でも必要が無いと言われようが、マップを埋めたくなるのがWizardryフリークスの、いやさゲーマーの本能！<br>
+悪い夢にでも出て来そうなキャタピラーに、是非とも会いに行きましょう。
+</p>
+<p class="end"><a href="/wiz6/maps/marsh/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/marsh/images/hero-l.webp">
+<img alt="不思議の国のキャタピラー｜沼地" src="/wiz6/maps/marsh/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">奇妙なイモムシに語りかけてみよう</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/marsh/images/o17-1.webp" alt="香りのきついキノコの上にすわっている巨大な虫のような姿の男は、ペンを使って何やらふくざつな数式らしきものをいそがしげに紙に書き付けていた。" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">何かを失くして困っているらしいぞ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/marsh/images/p11-1.webp" alt="湿った地面にはわずかに小さな足あとがついていた。" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">何やら不思議な雰囲気の漂う場所だ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/marsh/images/f14-2.webp" alt="ひがしぐちの鉄格子が開きはじめる" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">東口を開いて探索を開始</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="palace">
+<a class="deco-none" href="/wiz6/maps/palace/">
+<span class="title-l m5">死者の殿堂</span>
+<span class="title-sub m15">信じるべきは妃か王か？！明かされるレベッカの出自と2つのエンディング</span>
+</a>
+</h2>
+<p>
+怒涛の展開！
+</p>
+<ul>
+<li>かつて城主であった吸血鬼<span class="brackets">ベイン・キング</span></li>
+<li>悪魔の子<span class="brackets">レベッカ</span></li>
+<li>妃なのになぜか女王様<span class="brackets">王妃</span></li>
+</ul>
+<p class="m20">
+物語の中心人物である3名が次々にあらわれ、それぞれの言い分を聞かされることになります。<br>
+注意すべきは、漫然と進めていると<span class="brackets">妃ルート</span>一直線であるという点。<br>
+次のマップ<span class="brackets">魔法の森</span>で吸血鬼討伐の準備を整え、悪い王様を倒しました。<br>
+めでたしめでたし。
+</p>
+<p class="m20">
+ほんとうにそれでいいのですか？<br>
+若くてピュアだった頃の私は何度やっても妃ルートで、それに何の疑いも抱きませんでした。<br>
+因みにどちらの言い分が正しかったのか、などという公式な解答は少なくとも私は見たことがありません。<br>
+どちらにせよ、人のうわさ話や、声の大きい人が残す歴史なんてそんなものなんだという中腰の姿勢が大事だって言うことですね。<br>
+とにもかくにもここ<span class="brackets">死者の殿堂</span>でエンディングが分岐します。<br>
+慎重に進めてください。
+</p>
+<p class="m20">
+四守護者の持つ最強装備が手に入るのもここです。<br>
+余談ですが、マップをじーーーーっと眺めていると、<span class="quot">ある二人の人物</span> が意外な関係にあったことが推測できてしまいます。<br>
+ほんとうに奥の深いゲームだなぁ…しみじみ。
+</p>
+<p class="end"><a href="/wiz6/maps/palace/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/palace/images/hero-l.webp">
+<img alt="ロード・ハイヤト・ダイクタ 用心棒介錯人 第四の守護者｜死者の殿堂" src="/wiz6/maps/palace/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">第四の守護者が持つは最強武器の一角「むらまさ」だ！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/palace/images/f33-6.webp" alt="第一の守護者の即死攻撃" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">第一の守護者が放つ驚異の即死攻撃</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/palace/images/f25-3.webp" alt="第二の守護者サー・ジオフリー・クレイトンとの戦闘に突入" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">暗き夜に死は訪れなんじのミノス生をえん！<br>立ちはだかる第二の守護者</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/palace/images/r25-4.webp" alt="第三の守護者ブリガード・ダン・ウォルタンとの戦闘に突入" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">第三の守護者はハイマイナード<br>高位のバルキリーだ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/palace/images/s32-4.webp" alt="第四の守護者ロード・ハイヤト・ダイクタとの戦闘に突入！" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">第四の守護者<br>周りの雑魚も一撃必殺の力を持っているぞ</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/palace/images/l40-3.webp" alt="うらみを、はらすのじゃぁー！" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">いや怖ぇし！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/palace/images/l25-12.webp" alt="レベッカがこちらをにらみつけた" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">為す術もなく虜にされてしまう<br>おじさんもうメロメロ！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/palace/images/l30-2.webp" alt="またお会いするとは……" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">悪魔すら出し抜く奸智の王にしてヴァンパイアの真祖</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="forest">
+<a class="deco-none" href="/wiz6/maps/magic-forest/">
+<span class="title-l m5">魔法の森</span>
+<span class="title-sub m15">対価はまさかの全財産？！<br>デルファイの神託を受けてラストダンジョン攻略の準備を完了しよう</span>
+</a>
+</h2>
+<p>
+魔法の森ではデルファイを探し出し、信託を受ける事が目標です。<br>
+要求される <span class="quot y-l">対価</span> については、タイミングをよく考えてから支払うことをおすすめします。
+</p>
+<p>
+その他、かつて城主であった吸血鬼<em class="brackets">ベイン・キング</em>とガチンコで戦闘になった場合に備えての装備を探したりなどします。<br>
+無くても普通に戦えるそうですが、私は試したことがありません。
+</p>
+<p class="end"><a href="/wiz6/maps/magic-forest/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/magic-forest/images/hero-l.webp">
+<img alt="デルファイの神託" src="/wiz6/maps/magic-forest/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">デルファイの神託</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/magic-forest/images/ae33-2.webp" alt="おぉまぁえぇはぁだぁれぇだぁぁ？？" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">おぉまぁえぇはぁだぁれぇだぁぁ？？</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/magic-forest/images/o30-10.webp" alt="ハイ、わたしはセイレン！" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ハイ、わたしはセイレン！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/magic-forest/images/b18-1.webp" alt="壊れた十字架がぶら下がっていた" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">壊れた十字架がぶら下がっていた</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/magic-forest/images/p27-5.webp" alt="ティンカーベルを入手" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ティンカーベルを入手</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="temple">
+<a class="deco-none" href="/wiz6/maps/temple/">
+<span class="title-l m5">雄羊の寺院</span>
+<span class="title-sub m15">戦闘につぐ戦闘！<br>そして最後に立ち塞がるのは最強にして最狂の魔法使いゾーフィタス</span>
+</a>
+</h2>
+<p>
+まず前のマップ<span class="brackets">魔法の森</span>でデルファイから <b>アラムのつえ</b> を授かっていることが最低条件です。<br>
+杖を <span class="quot g-l">装備</span> したうえで、勇気をだして空中へ足を踏み出しましょう。<br>
+鉄骨を渡るカイジの気分を味わったら、あとは力押しです。<br>
+一方通行のワープをくり返して、次々と現れる敵をなぎ倒して進んでください。<br>
+実質的なラストダンジョンです。<br>
+よほどの高レベルでもなければ余裕など無い筈ですので、魔法の出し惜しみは無し！<br>
+フェアリークイーンの所でまとめ買いしたクッキーを貪りながら全力戦闘をくり返して、最後に待ち構えるゾーフィタス（体のほう）を目指します。
+</p>
+<p>
+因みにウィザードリィ6における最強武器 <b>ざとういちぼう</b> はランダムエンカウントのグレーターデーモンが低確率でドロップします。<br>
+いまさらどうしろっていうのよ！
+</p>
+<p class="end"><a href="/wiz6/maps/temple/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/temple/images/hero-l.webp">
+<img alt="生贄よ、炎へ進むがよい" src="/wiz6/maps/temple/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">生贄よ、炎へ進むがよい</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/temple/images/e1.webp" alt="ディフェンダー" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ディフェンダー</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/temple/images/e2.webp" alt="ロード・ダイミョー" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ロード・ダイミョー</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/temple/images/e3.webp" alt="グレーター・デーモン" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">グレーター・デーモン</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/temple/images/e4.webp" alt="ラダメス" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ラダメス</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/temple/images/e5.webp" alt="マインド・フレイヤー" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">マインド・フレイヤー</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/temple/images/e6.webp" alt="ランブル・ロック" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ランブル・ロック</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/temple/images/e7.webp" alt="ラム・プリースト" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">ラム・プリースト</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+<section class="m100">
+<div class="cases m30">
+<h2 id="forge">
+<a class="deco-none" href="/wiz6/maps/cosmic-forge/">
+<span class="title-l m5">コズミック・フォージの社</span>
+<span class="title-sub m15">堂々の結末！<br>あなたは何を選択し、そしてどう行動した？</span>
+</a>
+</h2>
+<p>
+死者の殿堂で “ある選択” をした（もしくはしなかった）ことにより、結末は既にある程度決定しています。<br>
+このページではWizardry6で迎えることとなる3つのエンディングについて解説して行きます。<br>
+物語の重大なネタバレを含みますので、自力で解明したいという Good-mannered player の皆さんはここでお引き取り下さい。
+</p>
+<p class="end"><a href="/wiz6/maps/cosmic-forge/">攻略ページ ▶</a></p>
+</div>
+<ul class="box-x lsn">
+<li>
+<figure>
+<a class="lightbox-common" href="/wiz6/maps/cosmic-forge/images/hero-l.webp">
+<img alt="話の核心に入ろうではないか" src="/wiz6/maps/cosmic-forge/images/hero-s.webp" width="398" height="224" loading="lazy"/>
+</a>
+<figcaption class="center f08">話の核心に入ろうではないか</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/cosmic-forge/images/d19-1.webp" alt="君たちは私を滅ぼそうと思っている。しかるに私は死にたくはない。" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">君たちは私を滅ぼそうと思っている。<br>しかるに私は死にたくはない。</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/cosmic-forge/images/d11-2.webp" alt="コズミック・フォージを見よ！" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">コズミック・フォージを見よ！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/cosmic-forge/images/d8-1.webp" alt="その玉座には巨大なブラックドラゴンが座っていた" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">その玉座には巨大なブラックドラゴンが座っていた</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/cosmic-forge/images/d11-15.webp" alt="バヒューン！" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">バヒューン！</figcaption>
+</figure>
+</li>
+<li>
+<figure>
+<img src="/wiz6/maps/cosmic-forge/images/end-5.webp" alt="To Be Continued…" width="256" height="224" class="lightbox" role="button" loading="lazy"/>
+<figcaption class="center f08">To Be Continued…</figcaption>
+</figure>
+</li>
+</ul>
+</section>
+</main>
+<aside id='sidebar-section' role='complementary'>
+<section id="side-unit1">
+<!-- 漫画カルーセル -->
+<div class="dmm-slider m25" data-genre="comic">
+<div class="dmm-track">
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+</div>
+<div class="center"><p class="f08" style="">Powered by <a href="https://affiliate.dmm.com/api/">DMM.com Webサービス</a></p></div>
+</div>
+</section>
+<section id="side-unit2">
+<h2 class="title-m t5">マップ別攻略一覧</h2>
+<ul class="link-height lsn m0">
+<li><a class="deco-none" href="/wiz6/">TOP</a></li>
+<li><a class="deco-none" href="/wiz6/maps/castle-1f/">アラム城 1F</a></li>
+<li><a class="deco-none" href="/wiz6/maps/castle-2f/">アラム城 2F</a></li>
+<li><a class="deco-none" href="/wiz6/maps/castle-corner-towers/">アラム城 四隅の塔</a></li>
+<li><a class="deco-none" href="/wiz6/maps/castle-b1/">アラム城 B1</a></li>
+<li><a class="deco-none" href="/wiz6/maps/castle-belfry/">アラム城 鐘楼</a></li>
+<li><a class="deco-none" href="/wiz6/maps/danger-area/">危険地帯</a></li>
+<li><a class="deco-none" href="/wiz6/maps/giant-mountain/">ジャイアントマウンテン</a></li>
+<li><a class="deco-none" href="/wiz6/maps/mine/">ドワーフの採掘場</a></li>
+<li><a class="deco-none" href="/wiz6/maps/pyramid/">ピラミッド</a></li>
+<li><a class="deco-none" href="/wiz6/maps/castle-spire/">アラム城 尖塔</a></li>
+<li><a class="deco-none" href="/wiz6/maps/castle-b2/">アラム城 B2</a></li>
+<li><a class="deco-none" href="/wiz6/maps/river/">死者の川</a></li>
+<li><a class="deco-none" href="/wiz6/maps/mound/">亡者の墓</a></li>
+<li><a class="deco-none" href="/wiz6/maps/marsh/">沼地</a></li>
+<li><a class="deco-none" href="/wiz6/maps/palace/">死者の殿堂</a></li>
+<li><a class="deco-none" href="/wiz6/maps/magic-forest/">魔法の森</a></li>
+<li><a class="deco-none" href="/wiz6/maps/temple/">雄羊の寺院</a></li>
+<li><a class="deco-none" href="/wiz6/maps/cosmic-forge/">コズミック・フォージの社</a></li>
+</ul>
+</section>
+<!-- 小説カルーセル -->
+<section class="dmm-slider" id="side-unit3" data-genre="photo">
+<div class="dmm-track">
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+</div>
+<div class="center"><p class="f08" style="">Powered by <a href="https://affiliate.dmm.com/api/">DMM.com Webサービス</a></p></div>
+</section>
+<section id="side-unit4">
+<h2 style="font-size:16px;">Copyright & Credits</h2>
+Game Data & Media<br>
+Bane of the Cosmic Forge.<br>
+Copyright © 1995 David W. Bradley and Sir-tech Software, Inc.<br>
+Licensed to ASCII Corporation.
+</section>
+<!-- 小説カルーセル -->
+<section class="dmm-slider" id="side-unit5" data-genre="novel">
+<div class="dmm-track">
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+</div>
+<div class="center"><p class="f08" style="">Powered by <a href="https://affiliate.dmm.com/api/">DMM.com Webサービス</a></p></div>
+</section>
+<!-- 漫画カルーセル -->
+<section class="dmm-slider" id="side-unit6" data-genre="comic">
+<div class="dmm-track">
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+<a><figure><img alt="" width="130" height="199" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><figcaption class="f08"></figcaption></figure><p>《試し読み》</p></a>
+</div>
+<div class="center"><p class="f08" style="">Powered by <a href="https://affiliate.dmm.com/api/">DMM.com Webサービス</a></p></div>
+</section>
+</aside>
+</div>
+<footer>
+Copyright 2026.<a href="https://games.beishiryoku.org/wiz6/">Wiz6攻略</a>.All Rights Reserved.
+<input type="checkbox" id="profile-btn-check" />
+<label for="profile-btn-check" class="profile-btn"><span></span><span style="clip-path: inset(50%);">プロフィールを開く</span></label>
+<aside id="profile">
+<figure class="m30">
+<a href="https://www.beishiryoku.org/">
+<img alt="米子力研究所" class="pic-max" style="aspect-ratio:856/270;" loading="lazy" src="/wiz6/assets/beishiryoku.webp">
+</a>
+</figure>
+<div class="icon"></div>
+<p class="m20">
+地方でひっそり活動しているテックエンジニアです。<br>
+昼間の顔はCAD/CAMオペレーター。<br>
+水力発電プラント、土木構造物、遺構、石造物の研究調査を趣味でやっています。
+</p>
+<ul class="m30 link-list">
+<li>普段活動している場所<a href="https://www.beishiryoku.org/">「米子力研究所」</a></li>
+<li><a href="https://ofuse.me/beisiryoku">お問い合わせ</a></li>
+<li><a href="https://games.beishiryoku.org/wiz6/policy">プライバシーポリシー</a></li>
+</ul>
+</aside>
+</footer>
+<button type="button" class="pagetop" aria-label="ページトップへ戻る" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+<div class="pagetop__arrow"></div>
+</button>
+</div>
+<!-- Google tag (gtag.js) -->
+<script>
+(function() {
+const loadGA = () => {
+if (window.gaLoaded) return;
+window.gaLoaded = true;
+const s = document.createElement('script');
+s.src = 'https://www.googletagmanager.com/gtag/js?id=G-PZX8XH9QDN';
+s.async = true;
+document.head.appendChild(s);
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-PZX8XH9QDN');
+['scroll', 'mousemove', 'touchstart'].forEach(type => {
+window.removeEventListener(type, loadGA);
+});
+};
+['scroll', 'mousemove', 'touchstart'].forEach(type => {
+window.addEventListener(type, loadGA, { passive: true });
+});
+})();
+</script>
+<script src="/wiz6/assets/js/lightbox.js" defer></script>
+<script src="/wiz6/assets/js/lightbox-common.js" defer></script>
+<script src="/wiz6/assets/js/carousel.js" defer></script>
+</body>
+</html>
