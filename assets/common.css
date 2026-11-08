@@ -1,7 +1,5 @@
 @charset "UTF-8";
-/* --------------------
-テンプレート（mobile）
--------------------- */
+/*  mobile-template  */
 
 /*  body  */
 
@@ -10,24 +8,29 @@ body{margin:0;background:black;color:#fff;font-family:"Arial",sans-serif;font-si
 
 /*  ﾍｯﾀﾞｰ  */
 /* -- mobile(856*270) -- */
-#header-section{height:auto;margin-bottom:5px;}
-#icon-top{background: url('/assets/icon-top.webp') no-repeat center/contain;width:124px;height:26px;margin-top:5px;margin-bottom:15px;}
-.icon-article{background: url('/assets/icon-article.png') no-repeat left center / 20px 16px;}
-.icon-home{background: url('/assets/icon-home.png') no-repeat left center / 20px 16px;}
-.icon-info{background: url('/assets/icon-info.png') no-repeat left center / 30px 30px;}
-.icon-mail{background: url('/assets/icon-mail.png') no-repeat left center / 20px 16px;}
-.icon-policy{background: url('/assets/icon-policy.png') no-repeat left center / 20px 16px;}
-.icon-x{background: url('/assets/icon-x.png') no-repeat left center / 20px 16px;}
+header{height:auto;margin-bottom:5px;}
+#icon-top{background: url('/beishiryoku/assets/icon-top.webp') no-repeat center/contain;width:124px;height:26px;margin-top:5px;margin-bottom:15px;}
+.icon-article{background: url('/beishiryoku/assets/icon-article.png') no-repeat left center / 20px 16px;}
+.icon-home{background: url('/beishiryoku/assets/icon-home.png') no-repeat left center / 20px 16px;}
+.icon-info{background: url('/beishiryoku/assets/icon-info.png') no-repeat left center / 30px 30px;}
+.icon-mail{background: url('/beishiryoku/assets/icon-mail.png') no-repeat left center / 20px 16px;}
+.icon-policy{background: url('/beishiryoku/assets/icon-policy.png') no-repeat left center / 20px 16px;}
+.icon-x{background: url('/beishiryoku/assets/icon-x.png') no-repeat left center / 20px 16px;}
 .icon-article,
 .icon-home,
 .icon-info,
 .icon-mail,
 .icon-policy,
 .icon-x{padding-left:28px;list-style:none;}
+#header-navigation{background:#0b191c;border-radius:5px;padding:10px 10px 10px 15px;}
+#header-navigation ol{display:flex;margin:0;}
+#header-navigation li,.nav-list li{font-size:0.9em;margin-right:50px;margin-left:-25px;}
+#burger li{line-height:2;}
+#header-navigation a{vertical-align:bottom;color:inherit;}
 /* -- pc(980*120) -- */
 @media screen and (min-width:721px){
-#header-section{border-radius:7px;width:980px;}
-#header-object{width:192px;height:40px;margin:5px auto 10px 0;}
+header{border-radius:7px;width:980px;}
+#icon-top{width:192px;height:40px;margin:5px auto 10px 0;}
 }
 
 /*  2ｶﾗﾑ  */
