@@ -11,7 +11,7 @@ body{margin:0;background:black;color:#fff;font-family:"Arial",sans-serif;font-si
 /*  ﾍｯﾀﾞｰ  */
 /* -- mobile(856*270) -- */
 #header-section{height:auto;margin-bottom:5px;}
-#header-object{background: url('/assets/icon-top.webp') no-repeat center/contain;width:124px;height:26px;margin-top:5px;margin-bottom:15px;}
+#icon-top{background: url('/assets/icon-top.webp') no-repeat center/contain;width:124px;height:26px;margin-top:5px;margin-bottom:15px;}
 .icon-article{background: url('/assets/icon-article.png') no-repeat left center / 20px 16px;}
 .icon-home{background: url('/assets/icon-home.png') no-repeat left center / 20px 16px;}
 .icon-info{background: url('/assets/icon-info.png') no-repeat left center / 30px 30px;}
