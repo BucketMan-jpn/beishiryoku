@@ -25,6 +25,9 @@ header{height:auto;margin-bottom:5px;}
 #header-navigation li,.nav-list li{font-size:0.9em;margin-right:50px;margin-left:-25px;}
 #burger li{line-height:2;}
 #header-navigation a{vertical-align:bottom;color:inherit;}
+header ::-webkit-scrollbar-track{background:rgba(0,0,0,0);}
+header ::-webkit-scrollbar-thumb{border-radius:4px;background:white;border:solid 1px gray;}
+header ::-webkit-scrollbar{height:8px;}
 /* -- pc(980*120) -- */
 @media screen and (min-width:721px){
 header{border-radius:7px;width:980px;}
@@ -228,7 +231,6 @@ a,.link{text-decoration:underline 1px #787878;text-underline-offset:4px;color:#d
 .dmm-track a{display:block;box-sizing:border-box;flex:0 0 auto;padding-right:10px;text-align:center;text-decoration:none;}
 .dmm-track img{display:block;width:auto;height:199px;object-fit:contain;margin-bottom:7px;border-radius:4px;}
 
-
 /* ----------------------------------------------------------------------------
 テンプレート（PC）
 ---------------------------------------------------------------------------- */
@@ -242,7 +244,7 @@ body{overflow-x:hidden;}
 
 /*  ﾍｯﾀﾞｰ  */
 
-header{border-radius:7px;padding:10px;margin-top:0;}
+header{box-sizing:border-box;border-radius:8px;background:black;padding:10px;border:solid 1px #474747;margin-bottom:30px;}
 
 /* breadcrumb */
 
@@ -255,8 +257,8 @@ main{width:635px;height:auto;min-height:2200px;}
 
 /*  共通部一括  */
 
-header,main,#under-unit-ofuse,#side-unit-mokuji{box-sizing:border-box;border-radius:8px;background:black;padding:15px;border:solid 1px #474747;}
-header,main{margin-bottom:20px;}
+main,#under-unit-search,#under-unit-ofuse,#side-unit-mokuji{box-sizing:border-box;border-radius:8px;background:black;padding:15px;border:solid 1px #474747;}
+main{margin-bottom:20px;}
 
 /* 記事下 */
 
@@ -268,6 +270,7 @@ header,main{margin-bottom:20px;}
 #side-column{width:300px;margin-left:auto;position:sticky;bottom:15px;align-self:flex-end;}
 #side-column section{width:100%;margin-bottom:25px;}
 #side-column section:last-child{margin-bottom:0;}
+.mokuji{margin-left:0;padding-left:0;}
 .mokuji li{margin-bottom:10px;}
 
 /*  footer  */
