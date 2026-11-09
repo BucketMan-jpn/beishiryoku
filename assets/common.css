@@ -10,7 +10,7 @@ header{height:auto;margin-bottom:5px;}
 #icon-top{background: url('/beishiryoku/assets/icon-top.webp') no-repeat center/contain;width:124px;height:26px;margin-top:5px;margin-bottom:15px;}
 .icon-article{background: url('/beishiryoku/assets/icon-article.png') no-repeat left center / 20px 16px;}
 .icon-home{background: url('/beishiryoku/assets/icon-home.png') no-repeat left center / 20px 16px;}
-.icon-info{background: url('/beishiryoku/assets/icon-info.png') no-repeat left center / 30px 30px;}
+.icon-info{background: url('/beishiryoku/assets/icon-info.png') no-repeat -4px center / 30px 30px;}
 .icon-mail{background: url('/beishiryoku/assets/icon-mail.png') no-repeat left center / 20px 16px;}
 .icon-policy{background: url('/beishiryoku/assets/icon-policy.png') no-repeat left center / 20px 16px;}
 .icon-x{background: url('/beishiryoku/assets/icon-x.png') no-repeat left center / 20px 16px;}
@@ -22,7 +22,7 @@ header{height:auto;margin-bottom:5px;}
 .icon-x{padding-left:28px;list-style:none;}
 #header-navigation{background:#0b191c;border-radius:5px;padding:10px 10px 10px 15px;}
 #header-navigation ol{display:flex;margin:0;}
-#header-navigation li,.nav-list li{font-size:0.9em;margin-right:50px;margin-left:-25px;}
+#header-navigation li,.nav-list li{font-size:0.9em;margin-right:50px;margin-left:-25px;white-space:nowrap;}
 #burger li{line-height:2;}
 #header-navigation a{vertical-align:bottom;color:inherit;}
 header ::-webkit-scrollbar-track{background:rgba(0,0,0,0);}
@@ -102,6 +102,15 @@ a,.link{text-decoration:underline 1px #787878;text-underline-offset:4px;color:#d
 .box-x figcaption{padding-right:10px;}
 .pic-max{width:100%;object-fit:cover;border-radius:6px;}
 .wid-max{max-width:100%;height:auto;}
+.pic-x,
+.pic-x-3-2,
+.pic-x-4-3{height:140px;margin-right:10px;border-radius:4px;}
+.inbox,.pic-res-list,.pic-res-l,.pic-res-s,.pic-max,.pic-blogcard{width:100%;border-radius:5px;}
+.pic-res-s{margin-top:15px;margin-bottom:15px;max-height:75cqw;}
+.pic-res-height{height:220px;width:auto;border-radius:5px;float:right;margin:2px 0 2px 7px;}
+.pic-blogcard{margin-top:15px;margin-bottom:15px;object-fit:cover;max-height:calc(100vw * 3 / 4);}
+.wid-max{max-width:100%;height:auto;}
+
 .top,.top-r{border-radius:5px;transition:0.3s;font-weight:bold;padding:3px 10px;margin-bottom:40px;display:inline-block;}
 .top{background-color:#fbba00;color:#000;}
 .mono{color:#bababa;font-weight:normal;}
@@ -253,7 +262,8 @@ header{box-sizing:border-box;border-radius:8px;background:black;padding:10px;bor
 /*  2ｶﾗﾑ  */
 
 #columns{display:flex;justify-content:space-between;align-items:flex-start;}
-main{width:635px;height:auto;min-height:2200px;}
+#center-column{min-height:2200px;}
+main{width:635px;height:auto;}
 
 /*  共通部一括  */
 
