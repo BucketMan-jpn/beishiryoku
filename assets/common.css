@@ -255,14 +255,20 @@ main{width:635px;height:auto;min-height:2200px;}
 
 /*  共通部一括  */
 
-header,main,#side-unit2,#side-unit4{box-sizing:border-box;border-radius:8px;background:black;padding:15px;border:solid 1px #474747;}
+header,main,#under-unit-ofuse,#side-unit-mokuji{box-sizing:border-box;border-radius:8px;background:black;padding:15px;border:solid 1px #474747;}
 header,main{margin-bottom:20px;}
+
+/* 記事下 */
+
+#under-unit section{width:100%;margin-bottom:25px;}
+#under-unit section:last-child{margin-bottom:0;}
 
 /* ｻｲﾄﾞﾊﾞｰ */
 
 #side-column{width:300px;margin-left:auto;position:sticky;bottom:15px;align-self:flex-end;}
 #side-column section{width:100%;margin-bottom:25px;}
 #side-column section:last-child{margin-bottom:0;}
+.mokuji li{margin-bottom:10px;}
 
 /*  footer  */
 
