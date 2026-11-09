@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /*  mobile-template  */
-
 /*  body  */
-
 html{scroll-behavior:smooth;}
 body{margin:0;background:black;color:#fff;font-family:"Arial",sans-serif;font-size:15px;line-height:1.6;min-width:300px;}
 
