@@ -41,8 +41,8 @@ header{border-radius:7px;width:980px;}
 /*  breadcrumb  */
 
 .breadcrumb{margin:0;padding:0;margin-bottom:27px;}
-.breadcrumb li{display:inline;font-weight:bold;color:#999;font-size:14px;white-space:nowrap;}
-.breadcrumb li:after{content:'\025b6';padding: 0 0.1em;color:#999;font-size:0.5em;vertical-align:2px;}
+.breadcrumb li{display:inline;font-weight:bold;color:#999;font-size:0.9em;white-space:nowrap;}
+.breadcrumb li:after{content:'\025b6';padding: 0 0.9em;color:#999;font-size:0.5em;vertical-align:2px;}
 .breadcrumb li:last-child:after{content: '';}
 .breadcrumb li a{color:white;text-decoration:none;}
 .breadcrumb li a:hover{color:#999;}
