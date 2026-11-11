@@ -50,7 +50,6 @@ header{border-radius:7px;width:980px;}
 
 #side-column section{width:100%;margin-bottom:70px;}
 #side-column section:last-child{margin-bottom:30px;}
-#side-column dl{margin-top:0;}
 
 /*  footer  */
 
@@ -239,6 +238,8 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 
 .pagetop{bottom:40px;z-index:40;font-size:1.5em;background-color:rgba(87,87,87,.8)}
 .pagetop__arrow{height:10px;width:10px;border-top:2px solid #fff;border-right:2px solid #fff;transform:translateY(20%) rotate(-45deg);}
+
+#burger dl{margin-top:0;}
 
 /* Light Box */
 
