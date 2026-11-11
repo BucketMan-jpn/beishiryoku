@@ -49,9 +49,10 @@ menuCheck.addEventListener('change', async () => {
       isLive2DInitialized = true;
       try {
         await loadLive2DDependencies();
-        startLive2D();
+        // 修正: await を追加し、エラーを確実にキャッチする
+        await startLive2D();
       } catch (error) {
-        console.error("Live2Dの読み込みに失敗しました:", error);
+        console.error("Live2Dの初期化または起動に失敗しました:", error);
         isLive2DInitialized = false;
       }
     }
@@ -59,7 +60,7 @@ menuCheck.addEventListener('change', async () => {
 });
 
 function initChatUI() {
-  const burger = document.getElementById("burger2");
+  const burger = document.getElementById("burger-inner");
   const chatContainer = document.createElement("div");
   chatContainer.id = "chat-container";
   chatContainer.innerHTML = `
@@ -172,11 +173,14 @@ async function handleChatSubmit(e) {
 async function startLive2D() {
   const container = document.getElementById("live2d-widget");
   if (!container) {
-    throw new Error("live2d-widgetコンテナが見つかりません。");
+    throw new Error("DOM上に #live2d-widget が存在しません。");
   }
+  
+  console.log("Container rect at start:", container.getBoundingClientRect());
 
-  // コンテナの幅・高さが0の場合は強制的にフォールバックするかログを出す
-  console.log("Container rect:", container.getBoundingClientRect());
+  // 微小なウェイトを置いてレイアウト確定を待つテスト
+  await new Promise(resolve => setTimeout(resolve, 50));
+  console.log("Container rect after 50ms:", container.getBoundingClientRect());
 
   const app = new PIXI.Application({
     transparent: true,
