@@ -170,49 +170,59 @@ async function handleChatSubmit(e) {
 
 // --- Live2D ---
 async function startLive2D() {
+  const container = document.getElementById("live2d-widget");
+  if (!container) {
+    throw new Error("live2d-widgetコンテナが見つかりません。");
+  }
+
+  // コンテナの幅・高さが0の場合は強制的にフォールバックするかログを出す
+  console.log("Container rect:", container.getBoundingClientRect());
+
   const app = new PIXI.Application({
     transparent: true,
-    resizeTo: document.getElementById("live2d-widget"),
-
-  resolution: window.devicePixelRatio || 1,
-  autoDensity: true,
-  antialias: true
-
+    resizeTo: container,
+    resolution: window.devicePixelRatio || 1,
+    autoDensity: true,
+    antialias: true
   });
 
-  document.getElementById("live2d-widget").appendChild(app.view);
+  container.appendChild(app.view);
 
-  const model = await PIXI.live2d.Live2DModel.from(
-    "https://bucketman-jpn.github.io/live2d-assets/11/11.model3.json"
-  );
+  try {
+    const model = await PIXI.live2d.Live2DModel.from(
+      "https://bucketman-jpn.github.io/live2d-assets/11/11.model3.json"
+    );
 
-  app.stage.addChild(model);
+    app.stage.addChild(model);
 
-  model.anchor.set(.5, .5);
-  model.scale.set(.15);
+    model.anchor.set(0.5, 0.5);
+    model.scale.set(0.15);
 
-  model.x = app.screen.width / 2;
-  model.y = app.screen.height / 2;
+    model.x = app.screen.width / 2;
+    model.y = app.screen.height / 2;
 
-  model.motion("Idle");
+    model.motion("Idle");
 
-  window.addEventListener('pointermove', (event) => {
-  const rect = app.view.getBoundingClientRect();
-  const scaleX = app.screen.width / rect.width;
-  const scaleY = app.screen.height / rect.height;
-  const x = (event.clientX - rect.left) * scaleX;
-  const y = (event.clientY - rect.top) * scaleY;
-  
-  model.focus(x, y);
-});
+    window.addEventListener('pointermove', (event) => {
+      const rect = app.view.getBoundingClientRect();
+      const scaleX = app.screen.width / rect.width;
+      const scaleY = app.screen.height / rect.height;
+      const x = (event.clientX - rect.left) * scaleX;
+      const y = (event.clientY - rect.top) * scaleY;
+      model.focus(x, y);
+    });
 
-const resetGaze = () => {
-  if (model && model.internalModel && model.internalModel.focusController) {
-    model.internalModel.focusController.focus(0, 0);
+    const resetGaze = () => {
+      if (model && model.internalModel && model.internalModel.focusController) {
+        model.internalModel.focusController.focus(0, 0);
+      }
+    };
+
+    window.addEventListener('pointerleave', resetGaze);
+    window.addEventListener('pointerup', resetGaze);
+
+  } catch (modelErr) {
+    console.error("Live2Dモデルのロードに失敗しました（CORSやパスの可能性があります）:", modelErr);
+    throw modelErr;
   }
-};
-
-window.addEventListener('pointerleave', resetGaze);
-window.addEventListener('pointerup', resetGaze);
-
 }
