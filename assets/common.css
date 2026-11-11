@@ -50,6 +50,7 @@ header{border-radius:7px;width:980px;}
 
 #side-column section{width:100%;margin-bottom:70px;}
 #side-column section:last-child{margin-bottom:30px;}
+#side-column dl{margin-top:0;}
 
 /*  footer  */
 
@@ -308,7 +309,7 @@ footer{width:640px;}
 .pagetop:hover{cursor:pointer;background-color:#919191;transition:0.3s;transform:scale(0.95);}
 .burger-btn span:after,
 .burger-btn span:before{width:25px;}
-#burger{width:400px;padding:10px;}
+#burger{width:400px;padding:10px 10px 150px;}
 .burger-btn{bottom:10px;}
 .pagetop{bottom:60px;}
 
