@@ -50,6 +50,8 @@ header{border-radius:7px;width:980px;}
 
 #side-column section{width:100%;margin-bottom:70px;}
 #side-column section:last-child{margin-bottom:30px;}
+.mokuji{margin-left:0;padding-left:0;}
+.mokuji li{margin-bottom:10px;}
 
 /*  footer  */
 
@@ -160,6 +162,8 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 .orange{color:orange;}
 .f{color:#fff;}
 .f08{font-size:0.8em;}
+.f12{font-size:1.2em;}
+.f13{font-size:1.3em;}
 .bold{font-weight:bold;}
 .block{display:inline-block;}
 .m0{margin-bottom:0;}
@@ -195,7 +199,6 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 .t20{margin-top:20px;}
 .t30{margin-top:30px;}
 .t50{margin-top:50px;}
-.f12{font-size:1.2em;}
 .asp16-9{aspect-ratio:16/9;}
 .asp4-3 {aspect-ratio: 4/3;}
 .p-l,.i-l,.b-l,.r-l,.r2-l,.g-l,.y-l,.f-l{-webkit-text-stroke: 1px black;text-stroke: 1px black;paint-order: stroke;text-decoration:underline ;text-decoration-thickness:7px;text-underline-offset:-2px;text-decoration-skip-ink:none;}
@@ -230,7 +233,7 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 #burger-btn-check:checked + .burger-btn{background-image:none;}
 
 #burger,#burger-outer{position:fixed;top:0;}
-#burger{right:-90%;z-index:30;width:90%;height:110%;box-sizing:border-box;text-align:left;padding:0 0 30px 10px;direction:rtl;background-color:rgba(10,10,10,0.9);transition:all 0.3s;color:#fff;overflow-y:auto;}
+#burger{right:-90%;z-index:30;width:90%;height:110%;box-sizing:border-box;text-align:left;padding:0 0 130px 10px;direction:rtl;background-color:rgba(10,10,10,0.9);transition:all 0.3s;color:#fff;overflow-y:auto;}
 #burger-inner{direction:ltr;}
 
 #burger-outer{left:0;width:100%;height:100%;z-index:-10;background-color:rgba(10,10,10,0.7);}
@@ -305,8 +308,6 @@ main{margin-bottom:20px;}
 #side-column{width:300px;margin-left:auto;position:sticky;bottom:15px;align-self:flex-end;}
 #side-column section{width:100%;margin-bottom:25px;}
 #side-column section:last-child{margin-bottom:0;}
-.mokuji{margin-left:0;padding-left:0;}
-.mokuji li{margin-bottom:10px;}
 
 /*  footer  */
 
@@ -320,7 +321,7 @@ footer{width:640px;}
 .pagetop:hover{cursor:pointer;background-color:#919191;transition:0.3s;transform:scale(0.95);}
 .burger-btn span:after,
 .burger-btn span:before{width:25px;}
-#burger{width:400px;height:100%;padding:10px;}
+#burger{width:400px;height:100%;padding:10px 10px 30px;}
 .burger-btn{bottom:10px;}
 .pagetop{bottom:60px;}
 #live2d-widget{margin-left:-5px;}
