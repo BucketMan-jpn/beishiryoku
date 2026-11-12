@@ -60,7 +60,7 @@ menuCheck.addEventListener('change', async () => {
 });
 
 function initChatUI() {
-  const burger = document.getElementById("chat-container");
+  const burger = document.getElementById("tanuki-container");
   const chatContainer = document.createElement("div");
   chatContainer.id = "chat-container";
   chatContainer.innerHTML = `
