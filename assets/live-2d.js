@@ -60,7 +60,7 @@ menuCheck.addEventListener('change', async () => {
 });
 
 function initChatUI() {
-  const burger = document.getElementById("burger-inner");
+  const burger = document.getElementById("chat-container");
   const chatContainer = document.createElement("div");
   chatContainer.id = "chat-container";
   chatContainer.innerHTML = `
