@@ -240,11 +240,12 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 .pagetop__arrow{height:10px;width:10px;border-top:2px solid #fff;border-right:2px solid #fff;transform:translateY(20%) rotate(-45deg);}
 
 #burger dl{margin-top:0;}
-#tanuki-container{position: relative;}
+#tanuki-container{position:relative;margin:50px 0;}
 #live2d-widget{width:120px;height:300px;margin-left:-5px;}
-#chat-container{position: absolute;right:10px;top:15px;}
-#chat-history{height:230px;overflow-y:auto;font-size:14px;line-height:1.4;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #444;margin-bottom:5px;}
-.chat-message{margin-bottom: 8px; }
+#shadow{width:80px;background-color:rgba(255, 255, 255, 0.15);height:25px;bottom:3px;left:14px;position:absolute;z-index:-1;border-radius:50%;}
+#chat-container{position:absolute;right:10px;top:15px;font-size:13px;max-width:calc(100% - 120px);}
+#chat-history{height:230px;overflow-y:auto;line-height:1.2;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #444;margin-bottom:5px;}
+.chat-message{margin-bottom:8px; }
 .user-msg{color:#fff;background:rgba(255,255,255,0.1);padding:4px 8px;border-radius:4px;display:inline-block;align-self:flex-end;}
 #chat-form{display:flex;gap:5px;}
 #chat-input{border:1px solid #666;padding:4px;border-radius:4px;}
@@ -319,7 +320,7 @@ footer{width:640px;}
 .pagetop:hover{cursor:pointer;background-color:#919191;transition:0.3s;transform:scale(0.95);}
 .burger-btn span:after,
 .burger-btn span:before{width:25px;}
-#burger{width:400px;padding:10px 10px 150px;}
+#burger{width:400px;height:100%;padding:10px;}
 .burger-btn{bottom:10px;}
 .pagetop{bottom:60px;}
 
