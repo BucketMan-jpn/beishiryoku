@@ -241,15 +241,15 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 
 #burger dl{margin-top:0;}
 #tanuki-container{position:relative;margin:50px 0;}
-#live2d-widget{width:120px;height:300px;margin-left:-5px;}
-#shadow{width:80px;background-color:rgba(255, 255, 255, 0.15);height:25px;bottom:3px;left:14px;position:absolute;z-index:-1;border-radius:50%;}
-#chat-container{position:absolute;right:0;top:15px;font-size:13px;width:calc(100% - 120px);}
+#live2d-widget{width:120px;height:300px;margin-left:-15px;}
+#shadow{width:80px;background-color:rgba(255, 255, 255, 0.15);height:25px;bottom:3px;left:4px;position:absolute;z-index:-1;border-radius:50%;}
+#chat-container{position:absolute;right:0;top:15px;font-size:13px;width:calc(100% - 110px);}
 #chat-history{height:230px;overflow-y:auto;line-height:1.2;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #444;margin-bottom:5px;}
-.chat-message{margin-bottom:8px; }
-.user-msg{background:rgba(255,255,255,0.1);padding:4px 8px;border-radius:4px;display:inline-block;}
+.chat-message{margin-bottom:8px;}
+.user-msg{background:rgba(255,255,255,0.1);padding:4px 8px;border-radius:4px;overflow-wrap:break-word;}
 #chat-form{display:flex;gap:5px;justify-content:space-between;}
 #chat-input{border:1px solid #666;padding:4px;border-radius:4px;width:73%;}
-#chat-submit{background:#555;border:1px solid #fff;color:#fff;padding:4px 10px;border-radius:4px;cursor:pointer;}
+#chat-submit{background:#555;border:1px solid #fff;color:#fff;padding:4px 10px;border-radius:4px;cursor:pointer;white-space:nowrap;}
 
 /* Light Box */
 
@@ -323,6 +323,9 @@ footer{width:640px;}
 #burger{width:400px;height:100%;padding:10px;}
 .burger-btn{bottom:10px;}
 .pagetop{bottom:60px;}
+#live2d-widget{margin-left:-5px;}
+#shadow{left:14px;}
+#chat-container{width:calc(100% - 120px);}
 
 /*  一般機能  */
 
