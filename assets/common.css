@@ -50,7 +50,7 @@ header{border-radius:7px;width:980px;}
 
 #side-column section{width:100%;margin-bottom:70px;}
 #side-column section:last-child{margin-bottom:30px;}
-#side-unit-vc img{aspect-ratio:6/5;}
+#side-unit-vc img{aspect-ratio:6/5;width:100%;}
 #mokuji-image img{width:100%;aspect-ratio:16/9;border-radius:5px;}
 .mokuji{margin-left:0;padding-left:0;}
 .mokuji li{margin-bottom:10px;}
@@ -202,6 +202,7 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 .asp16-9{aspect-ratio:16/9;}
 .pic-x-4-3,
 .asp4-3 {aspect-ratio: 4/3;}
+.pic-x-3-2,
 .asp3-2 {aspect-ratio: 3/2;}
 .p-l,.i-l,.b-l,.r-l,.r2-l,.g-l,.y-l,.f-l{-webkit-text-stroke: 1px black;text-stroke: 1px black;paint-order: stroke;text-decoration:underline ;text-decoration-thickness:7px;text-underline-offset:-2px;text-decoration-skip-ink:none;}
 .p-l{text-decoration-color:rgba(217,179,255,0.4);}
