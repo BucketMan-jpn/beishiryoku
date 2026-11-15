@@ -213,9 +213,9 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 
 /* burger */
 
-.iconP1{background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7-X-bKl-VEwLMRU9851EIUcUWvq2f-uoSawS-ARoB0SaENxk5rp0Im3WKYAuTSVOHcRFzOM715RwkVv7U-KutubS5VZkY8SL-BzHLZYnhYlqUQqkc9KS8StzCjJrWs8gAJNJcW10sYG36qSRAQsXGlDs18f9o6Z19G0s1ZemIv95MjEQSTUVSsYcFS4Ae/s118-rw-e32/icon.png) no-repeat center top / 60px 60px;}
+.iconP1{background:url(/beishiryoku/assets/icon-p.webp) no-repeat center top / 60px 60px;}
 .pcome{color:#ffe6e6;font-family:"Helvetica", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;}
-.iconS1{background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6uOV6XJLE-_1wh8L5R2vHGSORNof6BLhjWbqMCRa8FqR4YQmc6fKbLx9tDAMWsfyMvOW1VdMqtXzcL8Bw3xF4lT9P-w_V0Te_UGveFpjp-_JPyoaQgNzwuaamXxSQ24ViV-RocsEQDIjU730YEsODzZwRUFJ98IF6_lRq5kGGNkJ2BI4VSSgUeZbU6Rg/s118-rw-e90/s1.webp) no-repeat center top / 60px 60px;}
+.iconS1{background:url(/beishiryoku/assets/icon-s.webp) no-repeat center top / 60px 60px;}
 .iconS1,
 .iconP1{height:60px;width:60px;border-radius:8px;float:left;margin:5px 7px 2px 0;}
 
