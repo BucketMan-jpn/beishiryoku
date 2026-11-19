@@ -36,6 +36,7 @@ header{border-radius:7px;width:980px;}
 /*  2ｶﾗﾑ  */
 
 #columns{display:block;}
+#under-unit section{width:100%;margin-bottom:70px;}
 
 /*  breadcrumb  */
 
@@ -287,16 +288,11 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 .dmm-slider a{text-decoration:none;}
 .dmm-track a{display:block;box-sizing:border-box;flex:0 0 auto;padding-right:10px;text-align:center;text-decoration:none;}
 .dmm-track img{display:block;width:auto;height:199px;object-fit:contain;margin-bottom:7px;border-radius:4px;}
-.divide-line  {display:flex;flex-wrap:wrap;overflow:hidden;}
-.divide-line > span{position:relative;padding:0 0.6em;}
-.divide-line > span::before{content:"｜";position:absolute;left:-0.5em;}
-.divide-line > span:first-child::before{content:none;}
 
 
 /* ----------------------------------------------------------------------------
 テンプレート（PC）
 ---------------------------------------------------------------------------- */
-
 @media screen and (min-width:721px){
 
 /*  body  */
