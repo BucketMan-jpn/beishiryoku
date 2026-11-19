@@ -1,1 +1,30 @@
-document.addEventListener("DOMContentLoaded", () => { const overlay = document.createElement("div"); overlay.id = "lightbox-overlay"; const img = document.createElement("img"); img.style.maxWidth = "95vw"; img.style.maxHeight = "85vh"; img.style.width = "auto"; img.style.height = "auto"; img.style.objectFit = "contain"; img.style.imageRendering = "pixelated"; const caption = document.createElement("div"); caption.id = "lightbox-caption"; overlay.appendChild(img); overlay.appendChild(caption); document.body.appendChild(overlay); document.addEventListener("click", (e) => { const el = e.target.closest(".lightbox"); if (!el) return; img.src = el.dataset.full || el.src; caption.textContent = el.alt || ""; overlay.classList.add("show"); }); const closeLightbox = () => { overlay.classList.remove("show"); setTimeout(() => { img.src = ""; caption.textContent = ""; }, 200); }; overlay.addEventListener("click", closeLightbox); });
+document.addEventListener("DOMContentLoaded", () => {
+  const overlay = document.createElement("div");
+  overlay.id = "lightbox-overlay";
+  const img = document.createElement("img");
+  img.style.maxWidth = "95vw";
+  img.style.maxHeight = "85vh";
+  img.style.width = "auto";
+  img.style.height = "auto";
+  img.style.objectFit = "contain";
+  const caption = document.createElement("div");
+  caption.id = "lightbox-caption";
+  overlay.appendChild(img);
+  overlay.appendChild(caption);
+  document.body.appendChild(overlay);
+  document.addEventListener("click", (e) => {
+    const el = e.target.closest(".lightbox");
+    if (!el) return;
+    img.src = el.dataset.full || el.src;
+    caption.textContent = el.alt || "";
+    overlay.classList.add("show");
+  });
+  const closeLightbox = () => {
+    overlay.classList.remove("show");
+    setTimeout(() => {
+      img.src = "";
+      caption.textContent = "";
+    }, 200);
+  };
+  overlay.addEventListener("click", closeLightbox);
+});
