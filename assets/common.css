@@ -270,7 +270,7 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 #chat-history{height:230px;overflow-y:auto;line-height:1.2;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #444;margin-bottom:5px;}
 .chat-message{margin-bottom:8px;}
 .user-msg{background:rgba(255,255,255,0.1);padding:4px 8px;border-radius:4px;overflow-wrap:break-word;}
-#chat-form{display:flex;gap:5px;justify-content:space-between;}
+#chat-form{display:flex;gap:5px;justify-content:flex-end;}
 #chat-input{border:1px solid #666;padding:4px;border-radius:4px;width:73%;}
 #chat-submit{background:#555;border:1px solid #fff;color:#fff;padding:4px 10px;border-radius:4px;cursor:pointer;white-space:nowrap;}
 
