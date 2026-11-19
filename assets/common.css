@@ -3,12 +3,12 @@
 /*  body  */
 html{scroll-behavior:smooth;}
 body{margin:0;background:black;color:#fff;font-family:"Arial",sans-serif;font-size:15px;line-height:1.6;min-width:300px;}
-#background{padding:0 0 10px;}
+#background{padding:5px 0 10px;}
 
 /*  ﾍｯﾀﾞｰ  */
 /* -- mobile(856*270) -- */
 header{height:auto;margin-bottom:5px;}
-#icon-top{background: url('/beishiryoku/assets/icon-top.webp') no-repeat center/contain;width:124px;height:26px;margin-top:5px;margin-bottom:15px;}
+#icon-top{background:url('/beishiryoku/assets/icon-top.webp') no-repeat center/contain;width:124px;height:26px;margin-top:5px;margin-bottom:13px;}
 .icon-article{background:url('/beishiryoku/assets/icon-article.png') no-repeat left center / 20px 16px;}
 .icon-home{background:url('/beishiryoku/assets/icon-home.png') no-repeat left center / 20px 16px;}
 .icon-info{background:url('/beishiryoku/assets/icon-info.png') no-repeat -4px center / 30px 30px;}
@@ -55,7 +55,7 @@ footer{text-align:center;width:100%;font-size:14px;}
 
 /*  一般機能  */
 [id]{scroll-margin-top:50px;}
-h1{font-size:19px;line-height:1.4;}
+h1{font-size:19px;line-height:1.4;margin-bottom:20px;}
 .h1sub{font-size:16px;font-weight:normal;display:inline-block;color:#dbdbdb;}
 p,dd,h2,h3,h4,h5{margin:0;}
 h3,h4,h5{font-size:inherit;}
@@ -338,7 +338,7 @@ footer{width:640px;}
 #chat-container{width:calc(100% - 120px);}
 
 /*  一般機能  */
-
+h1{margin-bottom:17px;}
 summary{padding:3px 7px;}
 ::-webkit-scrollbar{background-color:rgba(0,0,0,0);}
 ::-webkit-scrollbar{height:8px;}
