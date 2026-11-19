@@ -63,9 +63,9 @@ footer{text-align:center;width:100%;font-size:14px;}
 /*  一般機能  */
 
 [id]{scroll-margin-top:50px;}
-h1{font-size:19px;line-height:1.4;margin:0 0 12px 0;}
-.h1sub{font-size:16px;font-weight:normal;margin-top:20px;display:inline-block;color:#dbdbdb;}
-p,dd,h1,h2,h3,h4,h5{margin:0;}
+h1{font-size:19px;line-height:1.4;}
+.h1sub{font-size:16px;font-weight:normal;display:inline-block;color:#dbdbdb;}
+p,dd,h2,h3,h4,h5{margin:0;}
 h3,h4,h5{font-size:inherit;}
 figure{display:block;margin-block:0;margin-inline:0;unicode-bidi:isolate;}
 blockquote{margin:0;}
@@ -349,7 +349,6 @@ footer{width:640px;}
 
 /*  一般機能  */
 
-h1{margin-top:0;}
 summary{padding:3px 7px;}
 ::-webkit-scrollbar{background-color:rgba(0,0,0,0);}
 ::-webkit-scrollbar{height:8px;}
