@@ -341,7 +341,7 @@ footer{width:640px;}
 .pagetop:hover{cursor:pointer;background-color:#919191;transition:0.3s;transform:scale(0.95);}
 .burger-btn span:after,
 .burger-btn span:before{width:25px;}
-#burger{width:400px;height:100%;padding:10px 10px 30px;}
+#burger{width:400px;height:100%;padding:10px 10px 130px;}
 .burger-btn{bottom:10px;}
 .pagetop{bottom:60px;}
 #live2d-widget{margin-left:-5px;}
