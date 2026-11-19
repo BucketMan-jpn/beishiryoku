@@ -3,17 +3,18 @@
 /*  body  */
 html{scroll-behavior:smooth;}
 body{margin:0;background:black;color:#fff;font-family:"Arial",sans-serif;font-size:15px;line-height:1.6;min-width:300px;}
+#background{padding:0 0 10px;}
 
 /*  ﾍｯﾀﾞｰ  */
 /* -- mobile(856*270) -- */
 header{height:auto;margin-bottom:5px;}
 #icon-top{background: url('/beishiryoku/assets/icon-top.webp') no-repeat center/contain;width:124px;height:26px;margin-top:5px;margin-bottom:15px;}
-.icon-article{background: url('/beishiryoku/assets/icon-article.png') no-repeat left center / 20px 16px;}
-.icon-home{background: url('/beishiryoku/assets/icon-home.png') no-repeat left center / 20px 16px;}
-.icon-info{background: url('/beishiryoku/assets/icon-info.png') no-repeat -4px center / 30px 30px;}
-.icon-mail{background: url('/beishiryoku/assets/icon-mail.png') no-repeat left center / 20px 16px;}
-.icon-policy{background: url('/beishiryoku/assets/icon-policy.png') no-repeat left center / 20px 16px;}
-.icon-x{background: url('/beishiryoku/assets/icon-x.png') no-repeat left center / 20px 16px;}
+.icon-article{background:url('/beishiryoku/assets/icon-article.png') no-repeat left center / 20px 16px;}
+.icon-home{background:url('/beishiryoku/assets/icon-home.png') no-repeat left center / 20px 16px;}
+.icon-info{background:url('/beishiryoku/assets/icon-info.png') no-repeat -4px center / 30px 30px;}
+.icon-mail{background:url('/beishiryoku/assets/icon-mail.png') no-repeat left center / 20px 16px;}
+.icon-policy{background:url('/beishiryoku/assets/icon-policy.png') no-repeat left center / 20px 16px;}
+.icon-x{background:url('/beishiryoku/assets/icon-x.png') no-repeat left center / 20px 16px;}
 .icon-article,
 .icon-home,
 .icon-info,
@@ -27,19 +28,12 @@ header{height:auto;margin-bottom:5px;}
 header ::-webkit-scrollbar-track{background:rgba(0,0,0,0);}
 header ::-webkit-scrollbar-thumb{border-radius:4px;background:white;border:solid 1px gray;}
 header ::-webkit-scrollbar{height:8px;}
-/* -- pc(980*120) -- */
-@media screen and (min-width:721px){
-header{border-radius:7px;width:980px;}
-#icon-top{width:192px;height:40px;margin:5px auto 10px 0;}
-}
 
 /*  2ｶﾗﾑ  */
-
 #columns{display:block;}
 #under-unit section{width:100%;margin-bottom:70px;}
 
 /*  breadcrumb  */
-
 .breadcrumb{margin:0;padding:0;margin-bottom:27px;}
 .breadcrumb li{display:inline;font-weight:bold;color:#999;font-size:0.9em;white-space:nowrap;}
 .breadcrumb li:after{content:'\025b6';padding:0 0.9em;color:#999;font-size:0.5em;vertical-align:2px;}
@@ -48,7 +42,6 @@ header{border-radius:7px;width:980px;}
 .breadcrumb li a:hover{color:#999;}
 
 /*  ｻｲﾄﾞﾊﾞｰ  */
-
 #side-column section{width:100%;margin-bottom:70px;}
 #side-column section:last-child{margin-bottom:30px;}
 #side-unit-vc img{aspect-ratio:6/5;width:100%;}
@@ -58,11 +51,9 @@ header{border-radius:7px;width:980px;}
 
 
 /*  footer  */
-
 footer{text-align:center;width:100%;font-size:14px;}
 
 /*  一般機能  */
-
 [id]{scroll-margin-top:50px;}
 h1{font-size:19px;line-height:1.4;}
 .h1sub{font-size:16px;font-weight:normal;display:inline-block;color:#dbdbdb;}
@@ -93,7 +84,7 @@ a,.link{text-decoration:underline 1px #787878;text-underline-offset:4px;color:#d
 /*  ｵﾘｼﾞﾅﾙｽﾀｲﾙ(mobile)  */
 .button-center{border-radius:20px;padding:5px 20px;display:inline-block;border:solid 1px white;}
 .button-ofuse {font-weight:bold;font-size:18px;border-radius:40px;padding:10px 20px;display:inline-block;border:solid 2px #ff9ea8;color:#fff;}
-a:hover,#header-navigation a:hover{color:#999999ff;transition:color 0.3s;}
+a:hover,#header-navigation a:hover,.icon-info:hover{color:#999999ff;transition:color 0.3s;}
 .button-ofuse a:hover,.button-center a:hover{color:white;}
 a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transform 0.3s;}
 .button-center:hover,
@@ -232,7 +223,6 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 .f-l{text-decoration-color:rgba(255,255,255,0.5);}
 
 /* burger */
-
 .iconP1{background:url(/beishiryoku/assets/icon-p.webp) no-repeat center top / 60px 60px;}
 .pcome{color:#ffe6e6;font-family:"Helvetica", "Arial", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;}
 .iconS1{background:url(/beishiryoku/assets/icon-s.webp) no-repeat center top / 60px 60px;}
@@ -275,7 +265,6 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 #chat-submit{background:#555;border:1px solid #fff;color:#fff;padding:4px 10px;border-radius:4px;cursor:pointer;white-space:nowrap;}
 
 /* Light Box */
-
 #lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:.3s;z-index:2147483646;padding:20px;box-sizing:border-box;}
 #lightbox-overlay.show{opacity:1;visibility:visible;}
 #lightbox-overlay img{max-width:95vw;max-height:85vh;border-radius:5px;}
@@ -301,7 +290,7 @@ body{overflow-x:hidden;}
 #background{width:1030px;box-sizing:border-box;margin:0 auto -10px;padding:20px 25px 15px;text-align:left;background:repeating-linear-gradient(-45deg,#141414 0,#141414 5px,#000 5px,#000 10px);}
 
 /*  ﾍｯﾀﾞｰ  */
-
+#icon-top{width:192px;height:40px;margin:5px auto 10px 0;}
 header{box-sizing:border-box;border-radius:8px;background:black;padding:10px;border:solid 1px #474747;margin-bottom:30px;}
 
 /* breadcrumb */
