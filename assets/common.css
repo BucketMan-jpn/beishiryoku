@@ -45,6 +45,7 @@ header ::-webkit-scrollbar{height:8px;}
 #side-column section{width:100%;margin-bottom:70px;}
 #side-column section:last-child{margin-bottom:30px;}
 #side-unit-vc img{aspect-ratio:6/5;width:100%;}
+#side-unit-tweet{min-height:calc(100vw * 1.2);}
 #mokuji-image img{width:100%;aspect-ratio:16/9;border-radius:5px;}
 .mokuji{margin-left:0;padding-left:0;}
 .mokuji li{margin-bottom:10px;}
@@ -271,7 +272,7 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 
 /* DMM carousel */
 .dmm-slider{width:100%;height:auto;overflow:hidden;}
-.dmm-track{display:flex;transition-timing-function:ease-in-out;margin-bottom:3px;}
+.dmm-track{display:flex;transition-timing-function:ease-in-out;margin-bottom:3px;min-height:230px;}
 .dmm-track figcaption{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;width:130px;}
 .dmm-slider a{text-decoration:none;}
 .dmm-track a{display:block;box-sizing:border-box;flex:0 0 auto;padding-right:10px;text-align:center;text-decoration:none;}
@@ -316,6 +317,7 @@ main{margin-bottom:20px;}
 #side-column{width:300px;margin-left:auto;position:sticky;bottom:15px;align-self:flex-end;}
 #side-column section{width:100%;margin-bottom:25px;}
 #side-column section:last-child{margin-bottom:0;}
+#side-unit-tweet{min-height:370px;}
 
 /*  footer  */
 
