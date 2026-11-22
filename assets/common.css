@@ -127,7 +127,7 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 
 .reverse-float-s{display:flex;flex-direction:column;}
 .reverse-float-s p{order:-1;}
-.reverse-float-s figure{order:0;width:fit-content;}
+.reverse-float-s figure{order:0;width:fit-content;margin:10px 0;}
 .reverse-float-s figure img{height:150px;border-radius:5px;}
 
 
