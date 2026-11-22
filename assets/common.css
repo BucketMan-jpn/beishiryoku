@@ -57,7 +57,7 @@ footer{text-align:center;width:100%;font-size:14px;}
 /*  一般機能  */
 [id]{scroll-margin-top:50px;}
 h1{font-size:19px;line-height:1.4;margin-bottom:20px;}
-.h1sub{font-size:16px;font-weight:normal;display:inline-block;color:#dbdbdb;}
+.h1sub{font-size:16px;font-weight:normal;display:inline-block;}
 p,dd,h2,h3,h4,h5{margin:0;}
 h3,h4,h5{font-size:inherit;}
 figure{display:block;margin-block:0;margin-inline:0;unicode-bidi:isolate;}
@@ -310,7 +310,7 @@ main{margin-bottom:20px;}
 /* 記事下 */
 
 #under-unit section{width:100%;margin-bottom:25px;}
-#under-unit section:last-child{margin-bottom:0;}
+#under-unit section:last-child{margin-bottom:10px;}
 
 /* ｻｲﾄﾞﾊﾞｰ */
 
