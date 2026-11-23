@@ -354,8 +354,8 @@ summary{padding:3px 7px;}
 /*  ｵﾘｼﾞﾅﾙｽﾀｲﾙ(pc)  */
 
 a:hover{color:#999999ff;transition:color 0.3s;}
-a:hover img,.lightbox:hover{transform:scale(0.98);transition:transform 0.3s;}
-a img,.button-center,.lightbox{transition:transform 0.1s ease-out;}
+a:hover img,.lightbox:hover,#icon-top:hover{transform:scale(0.98);transition:transform 0.3s;}
+a img,.button-center,.lightbox,#icon-top:hover{transition:transform 0.1s ease-out;}
 .lightbox{cursor:pointer;}
 .top:hover{cursor:pointer;background-color:#424242;transition:0.3s;transform:scale(0.98);}
 .accordion-title:hover{color:#999999ff;}
