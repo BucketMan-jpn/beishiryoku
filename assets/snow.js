@@ -19,11 +19,11 @@ function createWeatherOverlay(container, mode = "snow") {
   // ★ ここを変えるだけで雪↔雨や雰囲気を調整できる
   const PRESETS = {
     snow: {
-      count: 45,
+      count: 4,
       minSize: 1.5,
-      maxSize: 4.0,
-      minSpeedY: 0.6,
-      maxSpeedY: 1.8,
+      maxSize: 5.0,
+      minSpeedY: 0.4,
+      maxSpeedY: 1.4,
       windX: 0.25,
       swayAmp: 0.6,
       swaySpeed: 0.02,
