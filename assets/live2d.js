@@ -200,7 +200,7 @@ async function startLive2D() {
 
   try {
     const model = await PIXI.live2d.Live2DModel.from(
-      "https://bucketman-jpn.github.io/live2d-assets/12/12model3.json"
+      "https://bucketman-jpn.github.io/live2d-assets/12/12.model3.json"
     );
 
     app.stage.addChild(model);
