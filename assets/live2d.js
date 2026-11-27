@@ -192,6 +192,12 @@ async function startLive2D() {
 
   container.appendChild(app.view);
 
+  // 天候エフェクト
+  let stopWeather = null;
+  if (typeof createWeatherOverlay === "function") {
+    stopWeather = createWeatherOverlay(container, "snow");
+  }
+
   try {
     const model = await PIXI.live2d.Live2DModel.from(
       "https://bucketman-jpn.github.io/live2d-assets/11/11.model3.json"
