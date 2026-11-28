@@ -205,11 +205,11 @@ async function startLive2D() {
 
     app.stage.addChild(model);
 
-    model.anchor.set(0, 0.5);
-    model.scale.set(0.16);
+    model.anchor.set(0, 0);
+    model.scale.set(0.15);
 
-    model.x = 15;
-    model.y = app.screen.height / 2;
+    model.x = 5;
+    model.y = 0;
 
     model.motion("Idle");
 
