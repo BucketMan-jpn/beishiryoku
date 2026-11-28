@@ -19,7 +19,7 @@ function createWeatherOverlay(container, mode = "snow") {
   // ★ ここを変えるだけで雪↔雨や雰囲気を調整できる
   const PRESETS = {
     snow: {
-      count: 4,
+      count: 8,
       minSize: 1.5,
       maxSize: 5.0,
       minSpeedY: 0.4,
