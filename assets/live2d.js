@@ -205,7 +205,7 @@ async function startLive2D() {
 
     app.stage.addChild(model);
 
-    model.anchor.set(0.5, 0.5);
+    model.anchor.set(0.05, 0.5);
     model.scale.set(0.15);
 
     model.x = app.screen.width / 2;
