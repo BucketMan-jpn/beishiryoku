@@ -200,7 +200,7 @@ async function startLive2D() {
 
   try {
     const model = await PIXI.live2d.Live2DModel.from(
-      "https://bucketman-jpn.github.io/live2d-assets/12/12.model3.json"
+      "https://bucketman-jpn.github.io/live2d-assets/current/tanuki.model3.json"
     );
 
     app.stage.addChild(model);
@@ -208,7 +208,7 @@ async function startLive2D() {
     model.anchor.set(0, 0);
     model.scale.set(0.15);
 
-    model.x = 5;
+    model.x = 7;
     model.y = 0;
 
     model.motion("Idle");
