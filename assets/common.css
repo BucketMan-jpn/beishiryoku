@@ -104,7 +104,6 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 .title-sub{font-size:15px;line-height:1.6;display:block;}
 .title-s{font-size:16px;}
 .pic-res-s{margin-top:15px;margin-bottom:15px;}
-.pic-max{width:100%;object-fit:contain;border-radius:6px;}
 .wid-max{max-width:100%;height:auto;}
 .inbox,.pic-res-list,.pic-res-l,.pic-res-s,.pic-max,.pic-blogcard{width:100%;border-radius:5px;}
 .pic-res-s{margin-top:15px;margin-bottom:15px;max-height:75cqw;}
@@ -256,13 +255,14 @@ a:hover img,a:hover #header-object img{transform:scale(0.98);transition:transfor
 #tanuki-container{position:relative;margin:50px 0;}
 #live2d-widget{width:120px;height:300px;margin-left:-10px;}
 #shadow{width:80px;background-color:rgba(255, 255, 255, 0.15);height:25px;bottom:3px;left:4px;position:absolute;z-index:-1;border-radius:50%;}
-#chat-container{position:absolute;right:0;top:15px;font-size:13px;width:calc(100% - 110px);}
-#chat-history{height:230px;overflow-y:auto;line-height:1.2;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #444;margin-bottom:5px;}
+#chat-container{position:absolute;right:0;top:15px;font-size:13px;width:calc(100% - 110px);padding-right:5px;}
+#chat-history{height:245px;overflow-y:auto;line-height:1.2;padding:5px;border-radius:4px;margin-bottom:5px;background-color:rgba(0,0,0,0.8);}
 .chat-message{margin-bottom:8px;}
 .user-msg{background:rgba(255,255,255,0.1);padding:4px 8px;border-radius:4px;overflow-wrap:break-word;}
 #chat-form{display:flex;gap:5px;justify-content:flex-end;}
 #chat-input{border:1px solid #666;padding:4px;border-radius:4px;width:73%;}
 #chat-submit{background:#555;border:1px solid #fff;color:#fff;padding:4px 10px;border-radius:4px;cursor:pointer;white-space:nowrap;}
+.tanuki-back{width:100%;object-fit:contain;border-radius:6px;position:absolute;}
 
 /* Light Box */
 #lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:.3s;z-index:2147483646;padding:20px;box-sizing:border-box;}
